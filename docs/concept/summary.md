@@ -1,6 +1,6 @@
 # **NFDI Small Disciplines (NFDI4SD)**
 
-
+![](assets/summary.jpg)
 
 ## Die Aufgabe
 
