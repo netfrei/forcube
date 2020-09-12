@@ -1,0 +1,5 @@
+## Content provider
+
+Forscher nutzen ein dichtes Netzwerk von Forschungsdaten. Insbesondere die kleinen Fächer sind auf Forschungsdaten aus vielfältigen disziplinären Ursprüngen angewiesen. Die benutzten Forschungsdaten aus vielen unterschiedlichen wissenschaftlichen Gebiete gehen in Datenverknüpfungen, algorithmische Ableitung oder kombinierte Datenbestände ein. Linked data ist ein essentieller Teil der Forschungsarbeit. In deren Zusammenführung leistet das NFDI4SD eine unschätzbare Hilfestellung für den maschinellen Zugang zu benötigten Forschungsdaten.
+
+- Datenaggregation: Forschungsgegenstände einer Art werden oft umfassend, häufig als repräsentative Teildaten benötigt: Dokumente zu einem Thema finden sich selten bereits aufbereitet in einer Datenquelle zusammengeführt und aufbereitet. Auch sehr große Bibliotheken und Archive führen nur selten abgeschlossene Gesamtbestände. Die meisten Forschungsvorhaben sind auf eine eigene Zusammenführung der Forschungsgegenstände und einer Aufbereitung der Daten auf geeignete Datenformate angewiesen.

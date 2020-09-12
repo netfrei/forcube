@@ -1,0 +1,688 @@
+# Introduction {: .page-title}
+
+
+## **NFDI 4 Small Disciplins (NFDI4SD)**
+
+Diese Webseite dient der kollaborativen Erstellung des Antrags für die Einrichtung eines NFDI4 small disciplines.
+Das aktuelle Organisationsdiagramm mit angefragen Personen und Institutionen, deren Zusage ev. noch ausstehen kann)
+
+![NFDI4SD](/Volumes/GGbackup/Dropbox/2020NFDI4SD/Cube/site/assets/NFDI4SD.svg "Consortium")
+
+# Objectives {: .page-title}
+
+
+## Small Disciplines {: .page-title}
+
+## Warum brauchen „kleine Fächer" eine NFDI
+
+Die fortschreitende Digitalisierung und die Open-Access-Bewegung haben zu einer Transformation
+des Forschungsprozesses und zur stärkeren Verbreitung von Forschungsdaten geführt. Im Zuge dieser Entwicklung haben sich wissenschaftliche Institutionen wie Universitäten,
+Forschungseinrichtungen aber auch kleinere Gruppen und Akteure zur
+nachhaltigen Verwaltung und zum interdisziplinären Austausch von
+Forschungsdaten verpflichtet. Die Initiative zum Aufbau einer Nationalen
+Forschungsdateninfrastruktur trägt diesen massiven strukturellen Wandel
+Rechnung. Damit verbunden ist die systematische Planung, Sammlung,
+Verarbeitung, Analyse, Archivierung, Publikation und der Austausch von
+Daten unterschiedlichen Typs zur Wiederverwendung durch die
+wissenschaftliche Gemeinschaft sowie durch eine breite, interessierte
+Öffentlichkeit.
+
+Hierbei waren und sind insbesondere Geistes-, Kultur- und
+Sozialwissenschaften vor neue Herausforderungen gestellt, da
+Forschungsdatenmanagement und standardisierter Datenaustausch oft
+weniger selbstverständlich in ihre disziplinäre Kultur und Infrastruktur
+integriert sind, als im Fall der Lebens- oder Naturwissenschaften.
+
+Die hiermit verbundenen Anforderungen sind jedoch gerade für die
+sogenannten kleinen Fächer eine besondere Herausforderung. Hierzu
+gehören derzeit deutschlandweit über 150 Fächer,[^3] überwiegend
+geistes-, sozial- und kulturwissenschaftliche Disziplinen, die
+institutionell und ihrem Selbstverständnis nach keine bloßen
+Teildisziplinen eines größeren Fachbereichs darstellen. Die langfristige
+Förderung und Sicherung des Fortbestehens dieser Fächer stellt ein
+hochrangiges hochschulpolitisches Ziel für die Lehr- und
+Forschungsinfrastruktur in Deutschland überhaupt dar, wie
+Bundesbildungsministerin Anja Karliczek betont hat: „Auf die vielen
+großen Fragen unserer Gesellschaft, nicht zuletzt was sie zusammenhält,
+geben die Kleinen Fächer wertvolle Antworten. Sie schaffen bedeutsames
+Wissen und tragen dazu bei, unser kulturelles Erbe zu bewahren."[^4]
+
+Gleichwohl können kleine Fächer beim Aufbau von modernen
+Forschungsdateninfrastrukturen nicht oder nicht in notwendigem Umfang
+auf die Ressourcen jener Institutionen zugreifen, an welche sie i.d.R.
+organisatorisch angebunden sind. Sie verfügen jedoch auch nicht über
+notwendige eigene Mittel und Strukturen, um die spezifischen Bedürfnisse
+ihrer wissenschaftlichen Gemeinschaft im Hinblick auf modernes
+Forschungsdatenmanagement zu unterstützen, bestehende Praktiken an neue
+Standards anzupassen und so kompatible, nutzerorientierte Konzepte für
+Datenaustausch, -sicherung und -wiederverwendung zu implementieren.
+
+Wie die vom Bundesbildungsministerium unterstützte „Arbeitsstelle
+Kleiner Fächer" betont, gehört die Mehrheit der kleinen Fächer zwar den
+„insgesamt weniger drittmittelfinanzierten" Geistes- und
+Kulturwissenschaften an, sie weisen aber (anders als größere geistes-
+und kulturwissenschaftliche Fächer) eine vergleichsweise
+überdurchschnittliche Drittmittelquote auf -- sowohl hinsichtlich der
+Anzahl der Anträge wie auch bei den bewilligten Mitteln --, was nicht
+zuletzt als ein Indikator für einen entsprechend hohen Bedarf angesehen
+werden kann.
+
+Ein weiterer hier zu berücksichtigender Faktor ist die besonders
+kollaborativ und transdisziplinär ausgerichtete Arbeitsweise kleiner
+Fächer, wie es auch in einem vom BMBF geförderten Projekt zur „Dynamik
+kleiner Fächer" betont wird. Davon sind nicht nur Kooperationen mehrerer
+kleiner und/oder mittelgroßer Fächern betroffen, sondern auch die Lehre
+und die Betreuung des wissenschaftlichen Nachwuchses: Angesichts der
+thematischen Breite und Methodenvielfalt können Forschungsfragen und
+-themen in kleinen Fächern -- auch angesichts wissenschaftlicher
+Spezialisierung -- oftmals nur noch durch Beteiligung mehrerer
+Fachdisziplinen charakterisiert und angemessen bearbeitet werden:
+Innovationen werden typischerweise durch disziplinen- und
+kulturübergreifende Arbeit im transnationalen Austausch erreicht und
+benötigen daher in besonderem Maße die digitale Vernetzung, den
+Austausch von Forschungsdaten und eine leistungsfähige und
+nutzerfreundliche Infrastruktur, um dieses Ziel zu realisieren und für
+die Zukunft auszubauen.
+
+### Kleine Fächer: Formale Kriterien
+
+> Als Abgrenzung zu größeren Fachbereichen und Teildisziplinen hat die
+> „Arbeitsstelle Kleine Fächer" der JGU Mainz Kriterien erarbeitet, die
+> hier als Grundlage zur Bestimmung von Merkmalen, User-Profilen und
+> spezifischen Anforderungen bei der Nutzung von Forschungsdaten
+> herangezogen und erweitert werden sollen. Derzeit geht die
+> Arbeitsstelle von 157 kleinen Fächern und 2311 Professuren an 89
+> Standorten bundesweit aus. Diese gehören sechs Fachkulturen an, die
+> sich wiederum in 19 Fachgruppen gliedern: 1) Geisteswissenschaften; 2)
+> Gesundheitswissenschaften; 3) Ingenieurwissenschaften; 4) Kunst- und
+> Kunstwissenschaften; 5) Naturwissenschaften, Agrarwissenschaften und
+> Geographie; 6) Rechts-, Wirtschafts- und Sozialwissenschaften.[^5]
+> Über die Hälfte der kleinen Fächer gehören den Geisteswissenschaften
+> an, mit einigem Abstand gefolgt von den unter 5) sowie den unter 6)
+> zusammengefassten Fachkulturen.[^6] Entscheidend ist in diesem
+> Kontext, dass die spezifischen Interessen vieler der in den
+> Fachkulturen zusammengefassten Fachgruppen bislang nicht oder kaum
+> gesondert angesprochen werden, was nicht zuletzt einer relativ
+> ausgeprägten Dynamik geschuldet ist: Neue kleine Fächer wie Digital
+> Humanities oder Biodiversität etablieren sich, während andere aufgrund
+> eines starken Wachstums den Status als kleines Fach verlieren oder
+> aber ganz in größeren Disziplinen aufgehen.
+
+### Institutionelle Ebene
+
+Nicht mehr als drei unbefristete Professuren pro Standort, deutschlandweit
+sind bis zu zwei Ausnahmen möglich: Für den jeweiligen Wissenschaftszweig
+gibt es an deutschen Universitäten eigene Professuren mit spezifischen
+Denominationen.
+
+Eigene Studiengänge mit qualifiziertem Abschluss: Der jeweilige
+Wissenschaftszweig ist mit eigenen Studiengängen (Bachelor/ Master/
+Magister/ Diplom/ Staatsexamen) an deutschen Universitäten vertreten.
+
+Die Selektion und Ausbildung des wissenschaftlichen Nachwuchses, d.h.,
+die Möglichkeit der Promotion sowie die Etablierung von
+Juniorprofessuren mit der Aussicht auf Verstetigung bzw.
+Tenure-Track-Verfahren.
+
+#### Sozial-kommunikative Ebene
+
+Selbstverständnis als eigenes Fach: Die Professoren und Professorinnen,
+welche den jeweiligen Wissenschaftszweig an deutschen Universitäten
+vertreten, verstehen diesen als eigenständiges Fach.
+
+Fachgesellschaft: Der jeweilige Wissenschaftszweig verfügt über eine
+nationale oder internationale Fachgesellschaft oder wird in
+Ausnahmefällen von einer übergeordneten Fachgesellschaft klar als
+eigenständiges Fach anerkannt. Dies ist nicht zuletzt die Voraussetzung
+für den Zugang zu Fördermitteln verschiedener Institutionen, worauf
+kleine Fächer besonders angewiesen sind.
+
+Fachzeitschrift: Der jeweilige Wissenschaftszweig verfügt über eigene --
+nationale oder internationale -- einschlägige Publikationsorgane.
+
+
+### BAUSTEINE "Kleine Fächer" - small disciplines
+
+!!! note
+    Eine Animation der zeitlichen Entwicklung der Größe der kleinen Fächer (mit Ballons für Zahl der Professuren über die Jahre wäre schön)
+
+
+!!! example for maps of small discipline
+  [Abfallwirtschaft](https://www.kleinefaecher.de/kartierung/kleine-faecher-von-a-z.html?tx_dmdb_monitoring%5BdisciplineTaxonomy%5D=200&cHash=7926d252f10df8873f7beff649ce65e5)
+
+### Linkliste zu kleinen Fächern
+
+    1. [Fachtagung](https://www.kleinefaecher.de/beitraege/blogbeitrag/dokumentation-zur-tagung-kleine-faecher-entwicklungen-strategien-perspektiven.html)
+    2. [Paletschek](https://www.kleinefaecher.de/fileadmin/user_upload/img/Abschlusstagung_2019_Der_Blick_der_Universitaetsgeschichte_auf_die_Kleinen_Faecher_Paletschek.pdf)
+    3. [Resümee Dreyer](https://www.kleinefaecher.de/fileadmin/user_upload/img/Abschlusstagung_2019_Strategische_Weiterentwicklung_Kleiner_Faecher_Dreyer.pdf)
+
+## Research Data {: .page-title}
+
+## Research Data
+### Epistemology of research data
+
+Forschungsdaten wurden in der Wissenschaftensgeschichte seit den ersten Anfängen als eigenes wissenschaftliches Genre gehandelt und publiziert. Sie sind damit keine Erfindung des digitalen Zeitalters. Datenkataloge wie Ptolemy's Geography haben die Orte und Wege der antiken Welt geordnet; die Handy Tables dienten vielfach kopiert allen Gelehrten zur Konstellation der Gestirne. Kalender und damit verbundene religiöse Feste orientierten sich an Forschungsdaten. Lexika normieren Fachverständnis und Kommunikation. Medizines Wissen nutzte Kräuterbücher und Rezeptsammlungen; Kompendien und Handbücher ordneten kritisch begutachtetes Wissen der Disziplin. Gezeitentafeln regelten die Navigation, den Handel und das Leben an Küsten und Reisen. Reisebücher und Itinerare dokumentieren die gesammelten Erfahrungen von Erkundungen und ihren Entdeckungen. Die textlichen Zeugen von Forschungsdaten mit rezeptartigem Wissen ist nach groben Schätzungen weit umfangreicher genutzt und kopiert als wissenschaftliche Werke mit eher "theoretischen" Inhalten, deren legendäre Autoren wie Galen, Euklid oder Ptolemy bei der Frage nach den großen Werken der Antike als erstes genannt werden. Umfangreiche Werke der Forschungsdaten wie die Babylonischen Astronomischen Tagebücher waren für den weiteren Erfolg der Wissenschaft mindestens genauso bedeutend - doch sie trugen als kollaboratives Gemeinschaftswerk keinen Autorennamen. Dennoch wurde die epistemische Prüfung von Forschungsdaten in allen Wissenschaftskulturen mit größter Sorgfalt vorgenommen, archiviert und immer wieder kritisch überprüft worden. Es läßt sich gut dafür argumentieren, dass die Erfindung der wissenschaftlichen Bibliothek mit der Handhabung von Forschungsdaten eng verbunden ist.
+
+Für die konzeptionellen Anforderungen an eine moderne, digitale Forschungsdateninfrastruktur ist der historische Rückblick lehrreich.
+
+#### Discovery and justification
+
+
+#### Beyond FAIR
+
+### Paratext and Citables
+
+Die Forderung nach einer umfassenden Erschließung aber auch einer
+konsistenten Kontextualisierung wissenschaftlicher Daten ist ein
+zentrales Anliegen. Hier kann eine Analogie zur *Paratext*-Debatte [@zotero-40395]
+der letzten Jahre hergestellt werden: Basierend auf dem von Gérard
+Genette (1930-2018) eingeführten philologischen Begriff werden
+Paratexte (unterteilt in *Peri-* und *Epitext*) als jene einem
+(ursprünglich literarischen) Basistext beigefügten Elemente bezeichnet,
+welche Rezeption und Vertrieb eines Werkes entscheidend mitprägen und
+steuern, darunter Informationen zum Autor, Verlag, Titelei, Vorwort,
+Dank etc.[@genette1997] Dieses Konzept, das größere Aufmerksamkeit auf
+Produktionsprozesse und Autorisierungsinstanzen lenkt, wurde in der
+weiteren Forschung sukzessive um Textgattungen und Formate neuer Medien
+erweitert. Im Kontext der Digitalisierung wissenschaftlicher Daten heißt es: Gerade die Prüfung,
+Autorisierung und nachhaltige Präsentation von Forschungsdaten wird
+entscheidenden Einfluss auf die Wahrung und Weiterentwicklung nationaler
+wie internationaler Standards und Qualitätsansprüche haben und
+sicherstellen.
+
+
+
+
+
+### Publication
+
+
+### Workflow and NFDI Cube
+
+
+
+\bibliography
+
+## Objectives and Task Areas {: .page-title}
+
+## Summary of the proposed consortium’s main objectives and task areas
+
+Digital transformation is fundamentally changing the way researchers work, particularly those working in the small disciplines. These scholars are typically involved in highly collaborative and global long-term projects which use innovative technology, but they often lack the research data and publication infrastructure normally provided by their home institutions. Collaborative projects require agile workflows for all user groups. Data aggregation, preparation, processing, analyses and publications are elements of modern scholarly research. The aim of the NFDI4SD consortium is to provide scholars with research-integrating data along with other scientific activities. By concentrating on the small disciplines, the consortium will be able to provide researchers with the services that they require on a daily basis. The first objective will be to break up the traditional sequential research organization and weave research data, including the publication of the data, into an integrated research process, complemented by a moderated research model that weaves research data into the ongoing research workflow (the “cube”).
+
+### Objectives
+
+!!! Objective_1
+    Both the use and production of research data will be tightly integrated into ongoing research projects. From the beginning of science research has been an collaborative enterprise.  NFDI4SD services will become integral part of current research via an initial collaborative agreement between new research projects and the NFDI4SD. These agreements will be open to all disciplines, independent of their institutional classification as “small disciplines”.
+
+Currently, the main desideratum of researchers working in the small disciplines is access to modern computational research data beyond the support of their home institutions and third-party funding bodies. As science is per se a collaborative undertaking, the open knowledge exchange is fundamental to innovative and critical science. As a supporting infrastructure, the NFDI4SD will be a novel institutional research partner in the scientific arena.
+
+!!! Objective_2
+    The NFDI4SD will develop research data services that respond directly to the feedback of research projects. For many years now, the Arbeitsstelle Kleine Fächer has been recording the institutional settings of small disciplines. It enables direct communication between researchers, students, institutions and, in the future, the NFDI4SD.
+
+Modern concepts of computational philosophy of science will guide the software architecture of computational research data flows.
+
+!!! Objective_3
+    The NFDI4SD will use and supplement best-practice open source tools and computational libraries for services within the European Open Science Cloud (EOSC).
+
+The NFDI4SD will be an active member of the German NFDI consortium and will strive to form collaborations with other suitable consortia. It will commit itself to the strategic plans of the EOSC Roadmap and seek membership in the newly created EOSC Association. The proven infrastructure of CERN’s Zenodo service will provide OpenAIRE data publication, data harvesting and the implementation of FAIR data principles to implement the eight ambitions of Open Science.
+
+!!! Objective_4
+    The signing of agreements with relevant stakeholders – libraries, archives and other content providers – on standards, application programming interfaces (APIs) and open access via computer networks.
+
+The NFDI4SD governing body will seek to make operational agreements with a number of content-providing institutions on the implementation and accessibility of APIs for the NFDI4SD’s infrastructure hub. These agreements, using widely accepted standards, will enable researchers to access large sets of research data from a large number of content-holding institutions. It is expected that, within a short space of time, the NFDI4SD will be able to provide standardized API and interface modules. The large variety of small disciplines involved will ensure that special collections beyond the major stakeholders will be included in this integrated network of content providers.
+
+!!! Objective_5
+    The NFDI4SD aims to maximize the visibility of the impact of research
+
+New generation metrics monitors will be implemented to monitor the use and impact of the NFDI4SD’s services as part of the consortium’s support of the research projects. Daily updated monitors and impact indicators will enable researchers to assess their collaborative global network as well as inform the NFDI4SD’s governing body of hotspots of usage and of the need to steer users towards a particular course of action.
+
+!!! Objective_6
+    Publication and citizen science
+
+All scientific output for general scholarly use will be regarded as published material. Such material goes beyond putting data on a file server: publications implement FAIR data principles and use review, curation and scholarly assessments. The NFDI4SD intends to establish new procedures and references for data publications in order to enhance to a significant degree the impact of research.
+
+### Desiderata
+
+!!! desideratum
+    **D1** Sequential planning tends to place publications at the end of a research process, mostly beyond funding period.
+
+### Task areas
+
+The nature, benefits and characteristics of research data are surprisingly complex: data exist in many different media formats and contribute to the information value of the subjects of research; and researchers benefit from the rapid exchange of their publications and research findings. A Research Management Plan will coordinate the use and interoperability of the NFDI4SD’s services. Internal and external forms of communicating for research purposes, data storage, usage and revision as well as full-page archiving, including the final publication of research results and research data, will all form part of the NFDI4SD’s services.
+
+The workflow of research activities in the context of highly collaborative, agile scientific communities occurs at the interplay between data and theory, using – among other things – computational means. Such activities can neither be ordered as a linear sequence of tasks, nor as a research data life cycle. The organization of the workflow of research activities has been designed using Thomas Kuhn’s metaphor of science as a puzzle-solving activity. We describe the pipeline of scientific processes as the transformation of input data via research pipes into designed outcomes. This sequence of operation can be compared to the rotations of a multidimensional research cube (solving Rubik’s cube, for example). The cube’s faces represent the content, data, skills, or means of the research activities. Each single step (aka cube’s rotation leads to a new configuration).
+
+This puzzle-solving metaphor facilitates the orchestration of the NFDI4SD’s services into research activities by organizing and communicating the growing repertoire of the NFDI4SD’s manifold of research data services. The cube describes the requirements, standards and quality of data, as well as their information, metadata and documentation, in order to assure the best usage of services. The NFDI4SD can confidently base its operation on a wide spectrum of standards, API norms, data formats as recommended by the European Open Science Cloud and other standard institutions. The NFDI4SD will rapidly develop a user-friendly service catalogue which will serve as a graphical user interface (GUI) for researchers, who will be able to choose their needed service, quickly apply it to their given data and research questions and obtain their intended results.
+
+!!! Task_area
+    **TA1**: research fields
+
+The aim of this large task area is to observe at close range the application of the NFDI4SD’s services and then to recommend the development of additional services to satisfy the demands from the various disciplines. TA1 will be supported by a broad range of fields, assisted by coordinators.
+
+!!! Task_area
+    **TA2**: services, machine learning, big data and data connectivity
+
+The operational task area develops and secures the operation of the NFDI4SD’s infrastructure. Using ZENODO utilizes Europe’s largest and renowned research data publication platform and its comprehensive computer power.
+
+!!! Task_area
+    **TA3**: collaboration tools, user interfaces and publications
+
+Today’s research environments are leading to a rising demand for cloud collaboration services. Direct exchange is being replaced by the publication of texts and data. User interfaces ensure that scholars and scientists can effectively use and control data without any special training. In addition, metadata as well as knowledge graphs, advanced catalogues and reference tools will enable users of the NFDI4SD’s services to make the most of open scientific data.
+
+!!! Task_area
+    **TA4**: standards, metadata and quality assessment
+
+Data encoding, flow computers, computer interfaces, APIs and publications require the widest applicable standards, norms and metadata. Our principal investigators (PIs) are long-term members of the key standardization committees and so will ensure the interoperability of the research data over a long period of time.
+
+!!! Task_area
+    **TA5**: institutions, governance, public outreach, media and literacy
+
+The highly experienced and international scientific representatives responsible for this TA will ensure optimal information flow and the smooth undertaking of negotiations and agreements with research institutions worldwide. The organization of virtual conferences, newsletters, blogs, and hopefully of physical meetings in the future, should ensure productive and effective scientific communication and present the research results to the general public.
+
+!!! Task_area
+    **TA6**: legal aspects
+
+Intense scientific collaborative work and the exchange of information, including the production of publications, involve complex legal considerations. This area will be tasked with preparing the operating rules, information desks and consultation services. It will also actively shape the future legal landscape of the research activities of the digital transformation that we are currently undergoing.
+
+# Services {: .page-title}
+
+
+## Portfolio {: .page-title}
+
+## NFDI Services
+
+![NFDIServices](/Volumes/GGbackup/Dropbox/2020NFDI4SD/Cube/site/services/NFDIServices.svg)
+
+# Governance {: .page-title}
+
+
+## bodies {: .page-title}
+
+## Governance bodies
+
+![Governace bodies](/Volumes/GGbackup/Dropbox/2020NFDI4SD/Cube/site/governance/bodies.svg)
+
+# Appendix (nicht Antragsteil) {: .page-title}
+
+
+## Bibliography {: .page-title}
+
+⁠\bibliography
+
+## Editing tools {: .page-title}
+
+
+## NFDI 4 Small Disciplins (NFDI4SD)
+
+Die Dokumente dieser Webseite dienen der kollaborativen Abfassung des Antrags für die Einrichtung eines NFDI. Dieser Seite finden Sie Links und weitere Hinweise auf die Bearbeitung der Dateien.
+
+### Editing documents
+
+  - Die Dokumente liegen im Unterverzeichnis docs
+
+  ``` python
+  mkdocs.yml    # The configuration file.
+      docs/
+          concept/..   # Dateien für die Zielsetzung, Arbeitsorganisation und grundlegende Konzepte
+          cube/..      # Infrastruktur
+          usecases/..  # Anwendungsfällle verschiedener Fächer
+          index.md     # The documentation homepage.
+          ...          # Other markdown pages, images and other files.
+```
+
+### Markdown
+
+* [Markdown](https://facelessuser.github.io/PyMdown/user-guide/markdown-syntax/)
+* https://github.com/facelessuser/pymdown-extensions/blob/master/mkdocs.yml
+* Attribute List: https://python-markdown.github.io/extensions/attr_list/
+* Pages, directory: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
+* Admonitions / Blocks / Fences/ Animations: https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+
+```mermaid
+graph TD
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
+```
+
+### Format
+
+* [Colors](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)
+* [Icons](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/)
+
+Erweiterungen wurden eingebaut, die Textverfassungen nach akademischen Standards erlauben. Neben der Web Präsentation sind die Texte auch direkt in ein Word Dokument und ein PDF
+
+* [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+* [Extensions](https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/)
+
+* citations and bibliography:
+
+[@piotrowski , S. 6.]
+
+### Server Befehle
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+### Useful links
+
+* [mkdocs.yml](https://github.com/squidfunk/mkdocs-material/issues/748)
+
+## Bibliography
+
+\bibliography
+
+## Textbausteine {: .page-title}
+
+NFDI: Kleine Fächer
+===================
+
+Community
+---------
+
+#### Institutionen und Vertreter
+
+> Text
+
+##### 1.1.1 Corresponding author
+
+GG
+
+##### 1.1.2 Date
+
+##### 1.1.3 Citation
+
+2. Abstract
+-----------
+
+#### 2.1 Warum brauchen „kleine Fächer" eine NFDI (Arbeitstitel)
+
+Im Zuge einer durch die fortschreitende Digitalisierung Transformation
+des Forschungsprozesses und einer durch die Open-Access-Bewegung
+befeuerte Verbreitung und Austausch von Forschungsdaten haben sich
+wissenschaftliche Institutionen wie Universitäten,
+Forschungseinrichtungen aber auch kleinere Gruppen und Akteure zur
+nachhaltigen Verwaltung und zum interdisziplinären Austausch von
+Forschungsdaten verpflichtet. Die Initiative zum Aufbau einer Nationalen
+Forschungsdateninfrastruktur trägt diesen massiven strukturellen Wandel
+Rechnung. Damit verbunden ist die systematische Planung, Sammlung,
+Verarbeitung, Analyse, Archivierung, Publikation und der Austausch von
+Daten unterschiedlichen Typs zur Wiederverwendung durch die
+wissenschaftliche Gemeinschaft sowie durch eine breite, interessierte
+Öffentlichkeit.
+
+Hierbei waren und sind insbesondere Geistes-, Kultur- und
+Sozialwissenschaften vor neue Herausforderungen gestellt, da
+Forschungsdatenmanagement und standardisierter Datenaustausch oft
+weniger selbstverständlich in ihre disziplinäre Kultur und Infrastruktur
+integriert sind, als im Fall der Lebens- oder Naturwissenschaften.
+
+Die Forderung nach einer umfassenden Erschließung aber auch einer
+konsistenten Kontextualisierung wissenschaftlicher Daten ist dabei ein
+zentrales Anliegen. Hier kann eine Analogie zur *Paratext*-Debatte[^1]
+der letzten Jahre hergestellt werden: Basierend auf dem von Gérard
+Genette (1930--2018) eingeführten philologischen Begriff werden
+Paratexte (unterteilt in *Peri-* und *Epitext*) als jene einem
+(ursprünglich literarischen) Basistext beigefügten Elemente bezeichnet,
+welche Rezeption und Vertrieb eines Werkes entscheidend mitprägen und
+steuern, darunter Informationen zum Autor, Verlag, Titelei, Vorwort,
+Dank etc.[^2] Dieses Konzept, das größere Aufmerksamkeit auf
+Produktionsprozesse und Autorisierungsinstanzen lenkt, wurde in der
+weiteren Forschung sukzessive um Textgattungen und Formate neuer Medien
+erweitert. Im Kontext der Digitalisierung wissenschaftlicher Daten ist
+ein solches Vorgehen von zentraler Bedeutung: Gerade die Prüfung,
+Autorisierung und nachhaltige Präsentation von Forschungsdaten wird
+entscheidenden Einfluss auf die Wahrung und Weiterentwicklung nationaler
+wie internationaler Standards und Qualitätsansprüche haben und
+sicherstellen.
+
+Die hiermit verbundenen Anforderungen sind jedoch gerade für die
+sogenannten kleinen Fächer eine besondere Herausforderung. Hierzu
+gehören derzeit deutschlandweit über 150 Fächer,[^3] überwiegend
+geistes-, sozial- und kulturwissenschaftliche Disziplinen, die
+institutionell und ihrem Selbstverständnis nach keine bloßen
+Teildisziplinen eines größeren Fachbereichs darstellen. Die langfristige
+Förderung und Sicherung des Fortbestehens dieser Fächer stellt ein
+hochrangiges hochschulpolitisches Ziel für die Lehr- und
+Forschungsinfrastruktur in Deutschland überhaupt dar, wie
+Bundesbildungsministerin Anja Karliczek betont hat: „Auf die vielen
+großen Fragen unserer Gesellschaft, nicht zuletzt was sie zusammenhält,
+geben die Kleinen Fächer wertvolle Antworten. Sie schaffen bedeutsames
+Wissen und tragen dazu bei, unser kulturelles Erbe zu bewahren."[^4]
+
+Gleichwohl können kleine Fächer beim Aufbau von modernen
+Forschungsdateninfrastrukturen nicht oder nicht in notwendigem Umfang
+auf die Ressourcen jener Institutionen zugreifen, an welche sie i.d.R.
+organisatorisch angebunden sind. Sie verfügen jedoch auch nicht über
+notwendige eigene Mittel und Strukturen, um die spezifischen Bedürfnisse
+ihrer wissenschaftlichen Gemeinschaft im Hinblick auf modernes
+Forschungsdatenmanagement zu unterstützen, bestehende Praktiken an neue
+Standards anzupassen und so kompatible, nutzerorientierte Konzepte für
+Datenaustausch, -sicherung und -wiederverwendung zu implementieren.
+
+Wie die vom Bundesbildungsministerium unterstützte „Arbeitsstelle
+Kleiner Fächer" betont, gehört die Mehrheit der kleinen Fächer zwar den
+„insgesamt weniger drittmittelfinanzierten" Geistes- und
+Kulturwissenschaften an, sie weisen aber (anders als größere geistes-
+und kulturwissenschaftliche Fächer) eine vergleichsweise
+überdurchschnittliche Drittmittelquote auf -- sowohl hinsichtlich der
+Anzahl der Anträge wie auch bei den bewilligten Mitteln --, was nicht
+zuletzt als ein Indikator für einen entsprechend hohen Bedarf angesehen
+werden kann.
+
+Ein weiterer hier zu berücksichtigender Faktor ist die besonders
+kollaborativ und transdisziplinär ausgerichtete Arbeitsweise kleiner
+Fächer, wie es auch in einem vom BMBF geförderten Projekt zur „Dynamik
+kleiner Fächer" betont wird. Davon sind nicht nur Kooperationen mehrerer
+kleiner und/oder mittelgroßer Fächern betroffen, sondern auch die Lehre
+und die Betreuung des wissenschaftlichen Nachwuchses: Angesichts der
+thematischen Breite und Methodenvielfalt können Forschungsfragen und
+-themen in kleinen Fächern -- auch angesichts wissenschaftlicher
+Spezialisierung -- oftmals nur noch durch Beteiligung mehrerer
+Fachdisziplinen charakterisiert und angemessen bearbeitet werden:
+Innovationen werden typischerweise durch disziplinen- und
+kulturübergreifende Arbeit im transnationalen Austausch erreicht und
+benötigen daher in besonderem Maße die digitale Vernetzung, den
+Austausch von Forschungsdaten und eine leistungsfähige und
+nutzerfreundliche Infrastruktur, um dieses Ziel zu realisieren und für
+die Zukunft auszubauen.
+
+#### 2.2 Kleine Fächer: Formale Kriterien
+
+> Als Abgrenzung zu größeren Fachbereichen und Teildisziplinen hat die
+> „Arbeitsstelle Kleine Fächer" der JGU Mainz Kriterien erarbeitet, die
+> hier als Grundlage zur Bestimmung von Merkmalen, User-Profilen und
+> spezifischen Anforderungen bei der Nutzung von Forschungsdaten
+> herangezogen und erweitert werden sollen. Derzeit geht die
+> Arbeitsstelle von 157 kleinen Fächern und 2311 Professuren an 89
+> Standorten bundesweit aus. Diese gehören sechs Fachkulturen an, die
+> sich wiederum in 19 Fachgruppen gliedern: 1) Geisteswissenschaften; 2)
+> Gesundheitswissenschaften; 3) Ingenieurwissenschaften; 4) Kunst- und
+> Kunstwissenschaften; 5) Naturwissenschaften, Agrarwissenschaften und
+> Geographie; 6) Rechts-, Wirtschafts- und Sozialwissenschaften.[^5]
+> Über die Hälfte der kleinen Fächer gehören den Geisteswissenschaften
+> an, mit einigem Abstand gefolgt von den unter 5) sowie den unter 6)
+> zusammengefassten Fachkulturen.[^6] Entscheidend ist in diesem
+> Kontext, dass die spezifischen Interessen vieler der in den
+> Fachkulturen zusammengefassten Fachgruppen bislang nicht oder kaum
+> gesondert angesprochen werden, was nicht zuletzt einer relativ
+> ausgeprägten Dynamik geschuldet ist: Neue kleine Fächer wie Digital
+> Humanities oder Biodiversität etablieren sich, während andere aufgrund
+> eines starken Wachstums den Status als kleines Fach verlieren oder
+> aber ganz in größeren Disziplinen aufgehen.
+
+##### 2.2.1 Institutionelle Ebene
+
+Nicht mehr als 3 unbefristete Professuren pro Standort, deutschlandweit
+sind bis zu 2 Ausnahmen möglich: Für den jeweiligen Wissenschaftszweig
+gibt es an deutschen Universitäten eigene Professuren mit spezifischen
+Denominationen.
+
+Eigene Studiengänge mit qualifiziertem Abschluss: Der jeweilige
+Wissenschaftszweig ist mit eigenen Studiengängen (Bachelor/ Master/
+Magister/ Diplom/ Staatsexamen) an deutschen Universitäten vertreten.
+
+Die Selektion und Ausbildung des wissenschaftlichen Nachwuchses, d.h.,
+die Möglichkeit der Promotion sowie die Etablierung von
+Juniorprofessuren mit der Aussicht auf Verstetigung bzw.
+Tenure-Track-Verfahren.
+
+##### 2.2.2 Sozial-kommunikative Ebene
+
+Selbstverständnis als eigenes Fach: Die Professoren und Professorinnen,
+welche den jeweiligen Wissenschaftszweig an deutschen Universitäten
+vertreten, verstehen diesen als eigenständiges Fach.
+
+Fachgesellschaft: Der jeweilige Wissenschaftszweig verfügt über eine
+nationale oder internationale Fachgesellschaft oder wird in
+Ausnahmefällen von einer übergeordneten Fachgesellschaft klar als
+eigenständiges Fach anerkannt. Dies ist nicht zuletzt die Voraussetzung
+für den Zugang zu Fördermitteln verschiedener Institutionen, worauf
+kleine Fächer besonders angewiesen sind.
+
+Fachzeitschrift: Der jeweilige Wissenschaftszweig verfügt über eigene --
+nationale oder internationale -- einschlägige Publikationsorgane.
+
+#### 2.3 Keywords
+
+###### Gemeinsame Infrastruktur für national und disziplinär stark disparate Forschungseinheiten
+
+###### Starke Vernetzung: Kleine Fächer kooperieren nicht mehr nur projektbezogen, sondern sind generell international und kollaborativ ausgerichtet, um den thematisch-strukturell bedingten besonderen Forschungsanforderungen gerecht zu werden (dies sollen auch die User Cases abbilden
+
+###### Nutzerorientierung (kein top-down-Prozess)
+
+###### Bedürfnisanalyse und Erstellung von Nutzerprofilen für die jeweiligen Fächer/User
+
+###### Anpassung von Leistungen durch variablen Servicekatalog
+
+###### Einbindung von Fachhochschulen und nicht-akademischen Gruppen / Projekten
+
+###### Auch die Lehre und Ausbildung des wiss. Nachwuchses sind mit einbezogen
+
+###### Jeweils Nutzer- und Fachgruppen eingrenzen
+
+###### Inhalte: Übergang von Wissenschaft und Gesellschaft durch Vermittlung über Fachmedien
+
+###### Leistungen und Services, die auf international gültigen Standards basieren, aber individuell angepasst sind
+
+#### 2.4 Fachdisziplinen
+
+Die thematische und methodische Vielfalt der kleinen Fächer soll
+beispielhaft anhand der User Cases vorgestellt werden. Ein besonderes
+Kennzeichen Kleiner Fächer ist dabei eine transdisziplinäre Arbeitsweise
+bei der Bearbeitung komplexer Forschungsfragen und -themen, welche aus
+den heterogenen Fachkulturen an der Schnittstelle verschiedener
+Disziplinen resultiert. Innovationen werden typischerweise disziplinen-
+und kulturübergreifend erreicht und benötigen daher in besonderem Maße
+eine digitale Vernetzung und spezifische Infrastruktur, um dieses Ziel
+zu realisieren.
+
+##### 2.4.1 Fachgebiete
+
+History and Philosophy of Science
+
+Ur-und Frühgeschichte
+
+Geschichte / Ethik der Medizin
+
+Digital Humanities
+
+Historische Sprachwissenschaft
+
+Bibliotheks- und Informationswissenschaft
+
+Sinologie / Japanologie
+
+Judaistik
+
+Lateinamerikanistik
+
+Planetologie
+
+((ggf. Zukunftsforschung, FU))
+
+##### 2.4.2 User Cases
+
+###### Höhlenzeichnungen, GG
+
+###### Sonnenuhren (3D-Daten), GG
+
+###### Sinologie, Technik- und Wissensentwicklung im China der Frühen Neuzeit, z.B. Seidenmanufakturen der Ming-Zeit (MPIWG, Dagmar Schäfer)
+
+###### Codex Florentinus (Azteken), 16. Jh., Valery Berthoud
+
+###### Logbuch Sir Francis Drake, Bayerische Staatsbibliothek/JSTOR, Erweiterung durch kartograf. Material, Verlinkung auf Wikipedia etc.
+
+###### Basler Edition der Bernoulli-Briefwechsel (18.Jh.), Hg. von Fritz Nagel und Sulamith Gehr
+
+###### Epidemiologie: Pest -- Corona, N.N. (19.Jh.)??
+
+###### Briefwechsel des Physikers Theodore von Kármán, GG
+
+###### Unstructured-Data-Beispiel: Email-Korrespondenz LHC CERN, Projekt Uni Wuppertal
+
+###### Exoplaneten, EU-Forschungsprojekte
+
+##### Zeitliche Eingrenzung der Beispiele
+
+###### Vor- und Frühgeschichte
+
+###### Antike
+
+###### Frühe Neuzeit
+
+###### 18. Jahrhundert
+
+###### 20. Jahrhundert
+
+###### 21. Jahrhundert
+
+2. Forschungsdaten: Spezifika und Bedürfnisse „Kleiner Fächer"
+--------------------------------------------------------------
+
+##### 2.1 Typen von Forschungsdaten
+
+Hier stehen sowohl die Datenzirkulation als auch die Nutzung durch die
+User-Gruppen im Mittelpunkt
+
+###### Analyse von Textquellen (Beispiel Transkribus, Digitalisate von Handschriften), Übersetzung von Quelltexten (siehe Deepl)
+
+###### Verknüpfung mit Bildquellen (z.B. Fotografien, Zeichnungen, 3D-Modelle), Tondokumenten und audiovisuelle Quellen
+
+###### Visualisierung von Zahlen und Daten (z.B. Diagrammen Tabellen)
+
+###### Erweiterung durch Erfassung und Kuratierung von Metadaten
+
+##### 2.2. Anforderungen: Standardisierung und Qualitätsprüfung von Datenformaten
+
+###### Etablierung von Datenformaten und Metadaten-Standards nach validierten Qualitätsstandards
+
+###### Technische Prüfung
+
+###### Bereitstellung auf barrierefreien Plattformen zur Nutzung durch Forschung und Fachmedien
+
+[^1]: Zur Problematisierung und Erläuterung der Positionen siehe u. a.
+    Rockenberger, A., PhiN 76/2016, pp. 20--60,
+    <http://web.fu-berlin.de/phin/phin76/p76t2.htm#fz16>
+
+[^2]: Siehe Genette, G: Paratexte: das Buch vom Beiwerk des Buches,
+    Frankfurt a. M. 1989, bes. S. 9--21.
+
+[^3]: Siehe
+    <https://www.bmbf.de/de/kleine-faecher-grosse-potentiale-3261.html>
+    und
+    https://www.kleinefaecher.de/kartierung/kleine-faecher-von-a-z.html
+
+[^4]: https://www.bmbf.de/de/zukunft-der-kleinen-faecher-sichern-7240.html
+
+[^5]: Zur Aufgliederung nach Fachgruppen siehe Kartierungsbericht 2019,
+    1.3, S. 9.
+
+[^6]: Laut Kartierungsbericht der Arbeitsstelle von 2019 waren 56%
+    Geisteswissenschaften, 18% Naturwissenschaften, Agrarwissenschaften
+    und Geographie, 10% Rechts-, Wirtschafts- und Sozialwissenschaften,
+    13% Kunst und Kunstwissenschaften, 9% Ingenieurwissenschaften und 5%
+    Gesundheitswissenschaften.

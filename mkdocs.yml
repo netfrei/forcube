@@ -1,0 +1,82 @@
+site_name: NFDI4SD
+nav:
+  - Introduction:
+      - First page: index.md
+      - Summary: concept/summary.md
+  - Research data:
+      - Small Disciplines: concept/smalldisciplines.md
+      - Research Data: concept/researchdata.md
+      - Paratext: services/metadata.md
+  - Research organisation:
+      - Objectives and Task Areas: concept/ObjectiveTask.md
+      - Measures/workpackages: concept/means.md
+      - User integration: research/integration.md
+      - Research bench: research/bench.md
+      - Epistemology: research/epistemology.md
+  - Services:
+      - Cloud services: services/cloud.md
+      - Service portfolio: services/NFDIservices.md
+      - Content partner: services/contentprovider.md
+  - Use Cases:
+      Taxonomy: usecases/orientation.md
+      Rock art: usecases/rockart.md
+      Ancient sundials: usecases/sundials.md
+      Karman Collection: usecases/karman.md
+      Sinology: usecases/sinology.md
+      Codex Florentinus: usecases/florentinus.md
+      Euler Edition: usecases/leo.md
+      Kepler: usecases/kepler.md
+      Francis Drake: usecases/sirdrake.md
+      Epidemology: usecases/bernoulli.md
+      Exoplanets: usecases/exoplanets.md
+  - Governance:
+      - bodies: governance/bodies.md
+#      - partner: governance/NFDI4SD-Kooperationspartner.md
+  - Appendix (nicht Antragsteil):
+    - Tasks: concept/tasks.md
+    - Observables: usecases/observableHQ.md
+    - Bibliography: concept/biblio.md
+    - Editing tools: editing.md
+#    - Textbausteine: concept/output.md
+    - Tools: concept/tools.md
+theme:
+  name: material
+  font: Roboto
+  language: en
+  features:
+    tabs: True
+  custom_checkbox: True
+  clickable_checkbox: True
+  palette:
+    primary: teal
+    accent: "deep orange"
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - admonition
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - markdown_blockdiag:
+      format: svg
+extra:
+    social:
+        - icon: material/github
+          link: https://github.com/grasshoff
+        - icon: material/home
+          link: http://openscience.ngrok.io/
+plugins:
+  - search
+  - mknotebooks
+#  - pdf-export:
+#      verbose: True
+#      media_type: print
+#      enabled_if_env: ENABLE_PDF_EXPORT
+  - bibtex:
+      bib_file:  "NFDI.bib"
+      cite_style:  "pandoc"
+      csl_file: "chicago.csl"
