@@ -381,9 +381,69 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Computational notebooks
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Computational notebooks" class="md-nav__link md-nav__link--active">
       Computational notebooks
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyter-notebooks" class="md-nav__link">
+    Jupyter notebooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observablehq" class="md-nav__link">
+    ObservableHQ
+  </a>
+  
+    <nav class="md-nav" aria-label="ObservableHQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collaborative-writing" class="md-nav__link">
+    collaborative writing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embedding" class="md-nav__link">
+    embedding
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -782,6 +842,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyter-notebooks" class="md-nav__link">
+    Jupyter notebooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observablehq" class="md-nav__link">
+    ObservableHQ
+  </a>
+  
+    <nav class="md-nav" aria-label="ObservableHQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collaborative-writing" class="md-nav__link">
+    collaborative writing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embedding" class="md-nav__link">
+    embedding
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -797,8 +901,9 @@
                 
                 
                 <h1 id="computational-notebooks">Computational notebooks</h1>
-<p>Die virtuelle Arbeitsumgebung von NFDI4SD wird mittels computational notebooks geschaffen. Als Relisationen des literate programmings von Donald Knuth wurden seit den 1980er die narrative Beschreibung des Ablaufs von Algorithmen in der Gestalt von Programmen als Gewebe oder Mischung von erklärendem Text und ausführbarem Programm entwickelt. Die heute weit verbreiteten Variante der Jupyter Notebooks haben die Erst-Entwickler Jernando Perez und Brian E. Granger als "An Open Source Framework for Interactive, Collaborative
-and Reproducible Scientific Computing and Education" überschrieben und ihre Zielsetzung in den Punkten zusammengefaßt:<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<p>The virtual working environment of NFDI4SD is realised by computational notebooks. Since the 1970s, Donald Knuth's paradigm of literate programming has been based on the narrative description of algorithms as a weave or mixture of explanatory text and executable program. Literate programming environments have been developed for many languages and computational purposes, beginning with Knuth's own $\LaTeX$ typesetting system.</p>
+<h2 id="jupyter-notebooks">Jupyter notebooks</h2>
+<p>The version of the Jupyter notebooks that is widely used today was originally developed by Jernando Perez and Brian E. Granger as "An Open Source Framework for Interactive, Collaborative and Reproducible Scientific Computing and Education" and summarised their objectives in the points: <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
 <blockquote>
 <ul>
 <li>"Individual exploration: a single investigator tests an idea, algorithm or question, likely with a small-scale test data set or simulation.</li>
@@ -808,13 +913,29 @@ and Reproducible Scientific Computing and Education" überschrieben und ihre Zie
 <li>Education: ultimately, research results become part of the corpus of a discipline that is shared with students and colleagues, thus seeding the next cycle of research."</li>
 </ul>
 </blockquote>
-<p>Mit Standardtechnologien kann auch der nicht speziell ausgebildete Forscher eine moderne digitale Arbeitsumgebung nutzen. Er wird dabei von der Research workbench in Form von erweiterten computational notebooks unterstützt. Der Wissenschaftler kann die vielfachen Angebote verschiedener IDE und Laufumgebungen von computational notebooks nach eigener Präferenz wählen. Der NFDI folgt der technologischen Entwicklung eng und beabsichtigt, die von den kleinen Fächern genutzten computational notebooks zu unterstützen. Die folgenden Bespiele zeigen die Umsetzung computational notebooks durch Jupyter Notebooks in der Webumgebung von Jupyterlab.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>Researchers use the NFDI4SD services in the form of advanced computational notebooks. The researcher can choose from a range of different running environments of computational notebooks, which are adapted to the development. NFDI4SD develops comprehensive libraries for these environments, providing additional functionality for using research data's computational services, including</p>
+<ul>
+<li>aggregation</li>
+<li>data wrangling</li>
+<li>visualisation </li>
+<li>publication</li>
+</ul>
+<p>NFDI4SD follows closely the technological development and intends to support the most important computational notebooks currently used by the small subjects with the support of the steering committee. The following figure shows the implementation of computational notebooks by Jupyter notebooks in the web environment of Jupyterlab <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
 <p>Die computational Notebooks entwickeln ihre Funktionalität und Bedienungsfreundlichkeit ständig weiter.</p>
 <ul>
 <li>Viele verschiedene vielversprechende Ansätze der kollaborativen Zusammenarbeit von Forschergruppen an einem Dokument sind bereits in fortgeschrittenem Entwicklungsstadium.</li>
 <li>Zukünftige Notebooks kombinieren die Vorzüge aktueller Entwicklungen von Computersprachen und gehen flexibel auf die verschiedenen Kompetenzfelder der Nutzer ein.</li>
 </ul>
 <p>Für die Aufgaben der NFDI4SD werden die Anforderungen an open science research data durch eine erhebliche Erweiterung der Funktionalität von Notebooks übernommen. Das NFDI4SD entwickelt dazu ein Paket "Computational Research Objects" an zusätzlichen Funktionalitäten, in deren Zentrum die Einführung einer neuen Objektklasse <em>CompResearchObject</em> steht, deren Instanzen alle relevanten Informationen von Forschungsobjekten alle Attribute beschreibt.</p>
+<h2 id="observablehq">ObservableHQ</h2>
+<p>Eine sich sehr schnell verbreitende Form von computational Notebooks sind interaktive Notebooks nach der open source plattform entwickelt von Mike Bostock - ObservableHQ. Aufbauend auf Bostocks "data driven Für die Infographics der New York Time perfektionieren diese Notebooks interaktive Infographiken. ObservableHQ ist ein Repositorium zur kollaborativen Entwicklung, Austausch und Weiterentwicklung von visuellen computational Notebooks. Die herausstechenden Graphiken der d3 Bibliothek sind führend im Design und Funktionalität. ObservableHQ eignen sich ideal zur Visualisierung und Kommunikation von Forschungsdaten. Aus diesem Grund nutzen führende Medienhäuser diese Komponenten, neben der New York Times auch Financial Times Graphics, die in kürzester Zeit mehr als 30 000 Infographiken publizierten. Über die API der NFDI4SD lassen sich Forschungsdaten direkt in die ObservableHQ importieren und visualisieren, ohne zwischengeschaltete deployments und Serverstrukturen.</p>
+<p><a href="https://www.ft.com/graphics">Infographics Financial Times</a></p>
+<p><a href="https://observablehq.com/@observablehq/user-manual">Manual</a></p>
+<h3 id="collaborative-writing">collaborative writing</h3>
+<p>One can collaboratively write and program computational notebooks in teams <a href="https://observablehq.com/@observablehq/fork-share-merge?collection=@observablehq/introduction">Teamwork with computational notebooks</a></p>
+<h3 id="embedding">embedding</h3>
+<p>ObservableHQ können schnell und ohne weitere Infrastruktur in andere Medien eingebettet werden.</p>
+<p><a href="https://observablehq.com/@mbostock/embedded-notebook">Embedding</a></p>
 <div class="footnote">
 <hr />
 <ol>
