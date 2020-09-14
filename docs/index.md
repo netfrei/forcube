@@ -2,36 +2,16 @@
 
 
 
-**Entwurf des Antrags zur Einrichtung einer Nationalen Forschungsdaten Infrastruktur für Kleine Fächer**
+**Draft proposal for the establishment of a National Research Data Infrastructure for Small Disciplines**
 
-
-<style>
-.fullwidth {
-  animation: skew 2s infinite;
-  animation-direction: alternate;
-}
-@keyframes skew {
-  0% {
-    transform: skewX(20deg);
-#    transform: scaleX(0.2);
-#    transform: scaleY(0.2);
-  }
-  100% {
-    transform: skewX(-20deg);
-  }
-}
-</style>
-
-
-<div id="observablehq-02499586">
-  <div class="observablehq-renderer"></div>
-</div>
+<div id="observablehq-fcb86958"></div>
 <script type="module">
-  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-  import define from "https://api.observablehq.com/d/9816247f70e147f3.js?v=3";
-  (new Runtime).module(define, name => {
-    if (name === "renderer") return Inspector.into("#observablehq-02499586 .observablehq-renderer")();
-  });
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/c32d7397fbf20abf.js?v=3";
+const inspect = Inspector.into("#observablehq-fcb86958");
+(new Runtime).module(define, name => name === "renderer" ? inspect() : undefined);
 </script>
 
-Thomas Kuhn created the metaphor of research as puzzle solving. Rubik's cube is a paradigm for puzzle solving. Cubes represent research data as a synthesis of content and its paratext. Aspects of research data like their metadata, provenience, or linked data, are panels of the cube's sides. Rotations of the cube's arrangements of planes refer to activities or NFDI4SD services about data. The ultimate goal is the publication of research data: when all panels on one side match, research data are open to the community for reuse.
+
+
+Thomas Kuhn created the metaphor of research as puzzle solving. Rubik's cube is a paradigm for puzzle solving. Workflows With research data as synthesis of content and its paratext are best narrated by puzzling with "cubes" instead of "research data lifecycles". Aspects of research data like their metadata, provenience, or linked data, are panels of the cube's sides. Rotations of the cube's arrangements of planes describe activities or NFDI4SD services with data. The ultimate goal is the publication of research data: when all panels on one side match, research data are open to the community for reuse.

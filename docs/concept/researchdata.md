@@ -1,6 +1,6 @@
 # Research Data
 
-![sd](assets/rd1.jpg)
+![sd](assets/researchdata2.jpg)
 
 ## Epistemology of research data
 

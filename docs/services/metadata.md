@@ -1,5 +1,7 @@
 # Paratext and Metadata
 
+![](assets/paratext2.jpg)
+
 Besides the content data, the paratext of research data contains different types of additional metadata. We cite the recommended metadata of the RDA,[^rda] and OpenAIRE:[^oair1]
 
 >Metadata is data providing information about data that makes findable, trackable and (re)usable. It can include information such as contact information, geographic locations, details about units of measure, abbreviations or codes used in the dataset, instrument and protocol information, survey tool details, provenance and version information and much more.

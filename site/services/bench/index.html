@@ -1,0 +1,1079 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.8">
+    
+    
+      
+        <title>Computational notebooks - NFDI4SD</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.01afc2df.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.83bccb1f.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009485">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#computational-notebooks" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="NFDI4SD" class="md-header-nav__button md-logo" aria-label="NFDI4SD">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            NFDI4SD
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Computational notebooks
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../.." class="md-tabs__link">
+          Research data
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="./" class="md-tabs__link md-tabs__link--active">
+          NFDI4SD Services
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../concept/ObjectiveTask/" class="md-tabs__link">
+          Research organisation
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../usecases/orientation/" class="md-tabs__link">
+          Use Cases
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../governance/bodies/" class="md-tabs__link">
+          Governance
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../impressum/" class="md-tabs__link">
+          Impressum
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NFDI4SD" class="md-nav__button md-logo" aria-label="NFDI4SD">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    NFDI4SD
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Research data
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Research data" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Research data
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="NFDI4SD" class="md-nav__link">
+      NFDI4SD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../concept/summary-en/" title="Summary" class="md-nav__link">
+      Summary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../concept/smalldisciplines-en/" title="Small Disciplines" class="md-nav__link">
+      Small Disciplines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../concept/researchdata/" title="Research Data" class="md-nav__link">
+      Research Data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../metadata/" title="Paratext" class="md-nav__link">
+      Paratext
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      NFDI4SD Services
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="NFDI4SD Services" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        NFDI4SD Services
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Computational notebooks
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Computational notebooks" class="md-nav__link md-nav__link--active">
+      Computational notebooks
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyter-notebooks" class="md-nav__link">
+    Jupyter notebooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observablehq" class="md-nav__link">
+    ObservableHQ
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFDIservices/" title="Service portfolio" class="md-nav__link">
+      Service portfolio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../publication/" title="Modes of publication" class="md-nav__link">
+      Modes of publication
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cloud/" title="Cloud services" class="md-nav__link">
+      Cloud services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../contentprovider/" title="Content partner" class="md-nav__link">
+      Content partner
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Research organisation
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Research organisation" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Research organisation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../concept/ObjectiveTask/" title="Objectives and Task Areas" class="md-nav__link">
+      Objectives and Task Areas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../concept/means/" title="Measures/workpackages" class="md-nav__link">
+      Measures/workpackages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../research/integration/" title="User integration" class="md-nav__link">
+      User integration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../research/epistemology/" title="Epistemology" class="md-nav__link">
+      Epistemology
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Use Cases
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Use Cases" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Use Cases
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/orientation/" title="Taxonomy" class="md-nav__link">
+      Taxonomy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/rockart/" title="Rock art" class="md-nav__link">
+      Rock art
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/sundials/" title="Ancient sundials" class="md-nav__link">
+      Ancient sundials
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/karman/" title="Karman Collection" class="md-nav__link">
+      Karman Collection
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/sinology/" title="Sinology" class="md-nav__link">
+      Sinology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/florentinus/" title="Codex Florentinus" class="md-nav__link">
+      Codex Florentinus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/leo/" title="Euler Edition" class="md-nav__link">
+      Euler Edition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/kepler/" title="Kepler" class="md-nav__link">
+      Kepler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/sirdrake/" title="Francis Drake" class="md-nav__link">
+      Francis Drake
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/bernoulli/" title="Epidemology" class="md-nav__link">
+      Epidemology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/exoplanets/" title="Exoplanets" class="md-nav__link">
+      Exoplanets
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Governance
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Governance" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Governance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../governance/bodies/" title="bodies" class="md-nav__link">
+      bodies
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Impressum
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Impressum" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Impressum
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../impressum/" title="Impressum" class="md-nav__link">
+      Impressum
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyter-notebooks" class="md-nav__link">
+    Jupyter notebooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observablehq" class="md-nav__link">
+    ObservableHQ
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="computational-notebooks">Computational notebooks</h1>
+<p>The virtual working environment of NFDI4SD is realised by computational notebooks. Since the 1970s, Donald Knuth's paradigm of literate programming has been based on the narrative description of algorithms as a weave or mixture of explanatory text and executable program. Literate programming environments have been developed for many languages and computational purposes, beginning with Knuth's own $\LaTeX$ typesetting system.</p>
+<h2 id="jupyter-notebooks">Jupyter notebooks</h2>
+<p>The version of the Jupyter notebooks that is widely used today was originally developed by Jernando Perez and Brian E. Granger as "An Open Source Framework for Interactive, Collaborative and Reproducible Scientific Computing and Education" and summarised their objectives in the points: <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<blockquote>
+<ul>
+<li>"Individual exploration: a single investigator tests an idea, algorithm or question, likely with a small-scale test data set or simulation.</li>
+<li>Collaboration: if the initial exploration appears promising, more often than not some kind of collaborative effort ensues.</li>
+<li>Production-scale execution: large data sets and complex simulations often require the use of clusters, supercomputers or cloud resources in parallel.</li>
+<li>Publication: whether as a paper or an internal report for discussion with colleagues, results need to be presented to others in a coherent form.</li>
+<li>Education: ultimately, research results become part of the corpus of a discipline that is shared with students and colleagues, thus seeding the next cycle of research."</li>
+</ul>
+</blockquote>
+<p>Researchers use the NFDI4SD services in the form of advanced computational notebooks. The researcher can choose from a range of different running environments of computational notebooks, which are adapted to the development. NFDI4SD develops comprehensive libraries for these environments, providing additional functionality for using research data's computational services, including</p>
+<ul>
+<li>aggregation</li>
+<li>data wrangling</li>
+<li>visualisation</li>
+<li>publication</li>
+</ul>
+<p>NFDI4SD follows closely the technological development and intends to support the most important computational notebooks currently used by the small subjects with the support of the steering committee. The following figure shows the implementation of computational notebooks by Jupyter notebooks in the web environment of Jupyterlab <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
+<p>Die computational Notebooks entwickeln ihre Funktionalität und Bedienungsfreundlichkeit ständig weiter.</p>
+<ul>
+<li>Viele verschiedene vielversprechende Ansätze der kollaborativen Zusammenarbeit von Forschergruppen an einem Dokument sind bereits in fortgeschrittenem Entwicklungsstadium.</li>
+<li>Zukünftige Notebooks kombinieren die Vorzüge aktueller Entwicklungen von Computersprachen und gehen flexibel auf die verschiedenen Kompetenzfelder der Nutzer ein.</li>
+</ul>
+<p>Für die Aufgaben der NFDI4SD werden die Anforderungen an open science research data durch eine erhebliche Erweiterung der Funktionalität von Notebooks übernommen. Das NFDI4SD entwickelt dazu ein Paket "Computational Research Objects" an zusätzlichen Funktionalitäten, in deren Zentrum die Einführung einer neuen Objektklasse <em>CompResearchObject</em> steht, deren Instanzen alle relevanten Informationen von Forschungsobjekten alle Attribute beschreibt.</p>
+<h2 id="observablehq">ObservableHQ</h2>
+<p>Eine sich sehr schnell verbreitende Form von computational Notebooks sind interaktive Notebooks nach der open source plattform entwickelt von Mike Bostock - ObservableHQ. Aufbauend auf Bostocks "data driven Für die Infographics der New York Time perfektionieren diese Notebooks interaktive Infographiken. ObservableHQ ist ein Repositorium zur kollaborativen Entwicklung, Austausch und Weiterentwicklung von visuellen computational Notebooks. Die herausstechenden Graphiken der d3 Bibliothek sind führend im Design und Funktionalität. ObservableHQ eignen sich ideal zur Visualisierung und Kommunikation von Forschungsdaten. Aus diesem Grund nutzen führende Medienhäuser diese Komponenten, neben der New York Times auch Financial Times Graphics, die in kürzester Zeit mehr als 30 000 Infographiken publizierten. Über die API der NFDI4SD lassen sich Forschungsdaten direkt in die ObservableHQ importieren und visualisieren, ohne zwischengeschaltete deployments und Serverstrukturen.</p>
+<p><a href="https://www.ft.com/graphics">Infographics Financial Times</a></p>
+<h1 id="beispiel-kartenprojektion">Beispiel Kartenprojektion</h1>
+<h3 id="beispielhaft-embedd-problem-wie-ist-die-componente-zu-scalieren">Beispielhaft embedd. Problem: wie ist die Componente zu scalieren?</h3>
+<p>(1)
+  - <a href="https://observablehq.com/@mbostock/fullscreen-canvas">Bostocks observable</a>
+  - <a href="https://github.com/observablehq/runtime/blob/master/README.md#_define">Inspector</a>
+(2) Diagramm mit "embed code" copy/paste</p>
+<style>
+.fullwidth {
+  width: -20vw;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  margin-left: -20vw;
+  margin-right: 60vw;
+  animation: skew 3s infinite;
+  transform: scaleX(20);
+  animation-direction: alternate;
+  opacity: .7;
+}
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
+</style>
+
+<div class="fullwidth" id="observablehq-210902eb"></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@mbostock/fullscreen-canvas.js?v=3";
+const inspect = Inspector.into("#observablehq-210902eb");
+(new Runtime).module(define, name => name === "canvas" ? inspect() : undefined);
+</script>
+
+<p>Zuvor ist der Code copy/paste eingefügt worden.</p>
+<p>(3) Wie scaliert man die Komponente? es müsste eine screen.width übergeben werden, aber wie?</p>
+<div class="highlight"><pre><span></span><code><span class="nx">canvas</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">n</span> <span class="o">=</span> <span class="mi">200</span><span class="p">;</span>
+  <span class="kr">const</span> <span class="nx">height</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">ceil</span><span class="p">(</span><span class="nx">width</span> <span class="o">*</span> <span class="nx">screen</span><span class="p">.</span><span class="nx">height</span> <span class="o">/</span> <span class="nx">screen</span><span class="p">.</span><span class="nx">width</span><span class="p">);</span>
+  <span class="kr">const</span> <span class="nx">margin</span> <span class="o">=</span> <span class="mi">60</span><span class="p">;</span>
+  <span class="kr">const</span> <span class="nx">context</span> <span class="o">=</span> <span class="nx">DOM</span><span class="p">.</span><span class="nx">context2d</span><span class="p">(</span><span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">);</span>
+  <span class="kr">const</span> <span class="nx">particles</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">({</span><span class="nx">length</span><span class="o">:</span> <span class="nx">n</span><span class="p">},</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">[</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="nx">width</span><span class="p">,</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="nx">height</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]);</span>
+  <span class="nx">context</span><span class="p">.</span><span class="nx">canvas</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">background</span> <span class="o">=</span> <span class="s2">&quot;#fff&quot;</span><span class="p">;</span>
+  <span class="nx">context</span><span class="p">.</span><span class="nx">strokeStyle</span> <span class="o">=</span> <span class="s2">&quot;red&quot;</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="kc">true</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">delaunay</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">Delaunay</span><span class="p">.</span><span class="nx">from</span><span class="p">(</span><span class="nx">particles</span><span class="p">);</span>
+    <span class="kr">const</span> <span class="nx">voronoi</span> <span class="o">=</span> <span class="nx">delaunay</span><span class="p">.</span><span class="nx">voronoi</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">]);</span>
+    <span class="nx">context</span><span class="p">.</span><span class="nx">save</span><span class="p">();</span>
+    <span class="nx">context</span><span class="p">.</span><span class="nx">clearRect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">);</span>
+    <span class="nx">context</span><span class="p">.</span><span class="nx">beginPath</span><span class="p">();</span>
+    <span class="nx">delaunay</span><span class="p">.</span><span class="nx">renderPoints</span><span class="p">(</span><span class="nx">context</span><span class="p">);</span>
+    <span class="nx">context</span><span class="p">.</span><span class="nx">fill</span><span class="p">();</span>
+    <span class="nx">context</span><span class="p">.</span><span class="nx">beginPath</span><span class="p">();</span>
+    <span class="nx">voronoi</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">context</span><span class="p">);</span>
+    <span class="nx">context</span><span class="p">.</span><span class="nx">stroke</span><span class="p">();</span>
+    <span class="k">yield</span> <span class="nx">context</span><span class="p">.</span><span class="nx">canvas</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kr">const</span> <span class="nx">p</span> <span class="k">of</span> <span class="nx">particles</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+=</span> <span class="nx">p</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span>
+      <span class="nx">p</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="nx">p</span><span class="p">[</span><span class="mi">3</span><span class="p">];</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="o">-</span><span class="nx">margin</span><span class="p">)</span> <span class="nx">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+=</span> <span class="nx">width</span> <span class="o">+</span> <span class="nx">margin</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="nx">width</span> <span class="o">+</span> <span class="nx">margin</span><span class="p">)</span> <span class="nx">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-=</span> <span class="nx">width</span> <span class="o">+</span> <span class="nx">margin</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">p</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="o">-</span><span class="nx">margin</span><span class="p">)</span> <span class="nx">p</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="nx">height</span> <span class="o">+</span> <span class="nx">margin</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">p</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;</span> <span class="nx">height</span> <span class="o">+</span> <span class="nx">margin</span><span class="p">)</span> <span class="nx">p</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-=</span> <span class="nx">height</span> <span class="o">+</span> <span class="nx">margin</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+      <span class="nx">p</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+=</span> <span class="mf">0.2</span> <span class="o">*</span> <span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">-</span> <span class="mf">0.01</span> <span class="o">*</span> <span class="nx">p</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span>
+      <span class="nx">p</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+=</span> <span class="mf">0.2</span> <span class="o">*</span> <span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">-</span> <span class="mf">0.01</span> <span class="o">*</span> <span class="nx">p</span><span class="p">[</span><span class="mi">3</span><span class="p">];</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><a href="https://observablehq.com/@observablehq/user-manual">Manual</a></p>
+<h3 id="collaborative-writing">collaborative writing</h3>
+<p>One can collaboratively write and program computational notebooks in teams <a href="https://observablehq.com/@observablehq/fork-share-merge?collection=@observablehq/introduction">Teamwork with computational notebooks</a></p>
+<h3 id="embedding">embedding</h3>
+<p>ObservableHQ können schnell und ohne weitere Infrastruktur in andere Medien eingebettet werden.</p>
+<p><a href="https://observablehq.com/@mbostock/embedded-notebook">Embedding</a></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://jupyter.org/">Jupyter</a>, mit <a href="https://en.wikipedia.org/wiki/Project_Jupyter">Wiki</a> und <a href="https://jupyterlab.readthedocs.io/en/stable/">Jupyterlab</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://ipython.org/_static/sloangrant/sloan-grant.html">Perez/Granger</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../metadata/" title="Paratext" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Paratext
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../NFDIservices/" title="Service portfolio" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Service portfolio
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="http://grasshoff.github.io/Cube/" target="_blank" rel="noopener" title="grasshoff.github.io" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: {"tabs": true},
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
