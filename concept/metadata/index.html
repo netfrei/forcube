@@ -356,6 +356,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#provenience" class="md-nav__link">
+    Provenience
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -812,6 +819,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#provenience" class="md-nav__link">
+    Provenience
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -831,49 +845,61 @@
                   <h1>Paratext</h1>
                 
                 <p><img alt="" src="../assets/NFDI4SD_paratext.jpg" /></p>
-<p>Besides the content data, the paratext of research data contains different types of additional metadata. Citing the recommended metadata of the RDA,<sup id="fnref:rda"><a class="footnote-ref" href="#fn:rda">4</a></sup> and OpenAIRE:<sup id="fnref:oair1"><a class="footnote-ref" href="#fn:oair1">3</a></sup></p>
+<p>Besides the content data, the paratext of research data contains different types of additional metadata. Citing the recommended metadata of the RDA,<sup id="fnref:rda"><a class="footnote-ref" href="#fn:rda">6</a></sup> and OpenAIRE:<sup id="fnref:oair1"><a class="footnote-ref" href="#fn:oair1">5</a></sup></p>
 <blockquote>
 <p>Metadata is data providing information about data that makes findable, trackable and (re)usable. It can include information such as contact information, geographic locations, details about units of measure, abbreviations or codes used in the dataset, instrument and protocol information, survey tool details, provenance and version information and much more.</p>
 </blockquote>
-<p>The recommended set of paratext data will be discussed at the beginning of the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of <a href="http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf">Datacite</a>. Wir teilen die Erfahrung, dass in der wichtigen Datenaggregation wie der Definition der Metadaten bislang standardisierte Ontologien nur eine untergeordnet Rolle spielen.</p>
+<p>The recommended set of paratext data will be discussed at the beginning of the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of <a href="http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf">Datacite</a>. We share the experience that in the important data aggregation such as the definition of metadata, standardised ontologies only play a subordinate role so far. A standardisation of terminology and meaning will still be a tightly controlled part of the data preparation process.</p>
 <h2 id="ontologien-cidoc-referenzdaten">Ontologien / CIDOC / Referenzdaten</h2>
 <p>NFDI4D wird ein reichhaltiges Portfolio von machinell verarbeiteten Ontologien zur Verfügung stellen (vergleichbar mit <img alt="Achres" src="https://arches.readthedocs.io/en/latest/ontologies-in-arches/" />), z.B. CRM (Conceptual Reference Model (<img alt="CIDOC" src="http://www.cidoc-crm.org/" />)). Das von NFDI4D bevorzugte bottom-up Modell der semantischen Frameworks und ihrer inferentiellen Verarbeitung sieht immer ein Prüfung ihrer Anwendungsbereiche durch die Projekt selbst vor. Die darauf aufbauenden machine learning algorithmen müssen immer ihre Qualitätsmetriken am annotierten Referenzdatenbeständen ausweisen. Diese Referenzdaten sind selbst im Idealfall publizierte, manuell von den Forschern ausgewählte und geprüfte Forschungsdaten.</p>
 <p>Following considerations might be taken into account:</p>
 <ul>
-<li>Paratext data will best be coded as <a href="https://json-ld.org/">JSON-LD</a> format, which as a lightweight Linked Data format allows a standardized API for complex hierarchical data structures. Its standards are ideal for an interoperable API, REST-services and Web interface.<sup id="fnref:ld"><a class="footnote-ref" href="#fn:ld">1</a></sup>Transformations into other formats and standards are planned.</li>
+<li>Paratext data will best be coded as <a href="https://json-ld.org/">JSON-LD</a> format, which as a lightweight Linked Data format allows a standardized API for complex hierarchical data structures. Its standards are ideal for an interoperable API, REST-services and Web interface.<sup id="fnref:ld"><a class="footnote-ref" href="#fn:ld">3</a></sup>Transformations into other formats and standards are planned.</li>
 <li>Core metadata, as required by ZENODO and generic data repositories, will be included in the set of metadata.</li>
 <li>Paratext will consist of the provenance of data to allow the composition of a data dependency graph. It will enable functions for the NFDI4SD registry to administer data dependencies and informative navigation through data repositories to the researcher.</li>
 <li>Many data provider - e.g. Bayerischer Staatsbibiothek München - as a pivotal content provider for digital ressources, has tagged exceptionally well their more than 2.5 mio digital objects and provides various RDF and XML structured metafiles. Their schema will be transparently used for the subsequent processing of research data for our researcher. A maximum of coherence of data and metadata is intended.</li>
 <li>Meaningful data APIs will be created along the lines of <a href="https://rollout.io/blog/json-ld-building-meaningful-data-apis/">API</a> considerations.</li>
 <li>Machine learning tools of the NFDI4SD will supply flexible mapping between user-specific terminology and data standards.</li>
 <li>Sufficient documentation of data, their origin, units, explanation of terms and cross-linking to standards of definition are recommended and will be assisted by appropriate tools using research feedback from the specific research community.</li>
-<li>There is a discussion about the advantage of <a href="https://ddialliance.org/announcement/public-review-structured-data-transformation-language-sdtl">Structured Data Transformation (SDTL)</a> which addresses the issue of data provenance.<sup id="fnref:sdtl1"><a class="footnote-ref" href="#fn:sdtl1">2</a></sup> A proposal is under review.</li>
+<li>There is a discussion about the advantage of <a href="https://ddialliance.org/announcement/public-review-structured-data-transformation-language-sdtl">Structured Data Transformation (SDTL)</a> which addresses the issue of data provenance.<sup id="fnref:sdtl1"><a class="footnote-ref" href="#fn:sdtl1">4</a></sup> A proposal is under review.</li>
 </ul>
-<p># Standards, Standards-Companion</p>
+<p># Standards and NFDI4D's <em>Standards-Companion</em></p>
 <p>The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used:</p>
 <pre><code>  - Dublin Core, Zenodo API
   - PID systems
   - JSON-LD
   - UTF 8
+  - CIDOC[^cd]
+  - Schema.org
 </code></pre>
-<p>Researchers are not expected to master all these standards themselves and to be able to judge the advantages and disadvantages of other standards. In order to offer the development as well as the use of the rich standards to researchers as a service, NFDI4SD is developing a <em>Standards-Companion</em>. Analogous to the Companion on legal standards, NFDI4SD is developing a Standards-Companion, which classifies the registered research data with the means of machine learning on the application of standards and directly generates an automated report on the standards used, their reference pages and further literature via the virtual research bench. Alternative standard concepts are also reported. The Standards-Companion constantly updates its own database and in this way ensures the harmonisation of research data. The data sources for the Standard-Companion are in particular</p>
+<p>Researchers are not expected to master all these standards themselves and to be able to judge the advantages and disadvantages of other standards.</p>
+<p>Disciplines therefore develop or use their own specific terminologies, whereby research data distributed over various contexts of origin accumulates a conceptual vagueness that creates difficulties in the uncritical use of simple terminology. Linked Open Data (LOD) should therefore go beyond the sole use of ontologies and move from the possibilities of machine learning to the tested use of vague concepts. Mees, Thiery and Unold have convincingly pointed out use cases of provincial Roman archaeology and many others no subject. <sup id="fnref:33"><a class="footnote-ref" href="#fn:33">1</a></sup></p>
+<p>In order to offer the development as well as the use of the rich standards to researchers as a service, NFDI4SD is developing a <em>Standards-Companion</em>. Analogous to the Companion on legal standards, NFDI4SD is developing a Standards-Companion, which classifies the registered research data with the means of machine learning on the application of standards and directly generates an automated report on the standards used, their reference pages and further literature via the virtual research bench. Alternative standard concepts are also reported. The Standards-Companion constantly updates its own database and in this way ensures the harmonisation of research data. The data sources for the Standard-Companion are in particular</p>
 <pre><code>- Formal models of the standards
 - Labeled referenc data
 </code></pre>
+<h2 id="provenience">Provenience</h2>
+<p>Data Provenience will become part of the paratext of research data. It will be gathered by compiling a dependency graph between research data objects as described in either narrative publications or the analysis of computational notebooks. Each research data object will carry a unique identifyer and reference in research publication establish the dependencies between them. NFDI4SD registry will build up a large dependency graph for research data that will be the basis of supporting the cataloging and reuse of research data.</p>
 <div class="footnote">
 <hr />
 <ol>
+<li id="fn:33">
+<p>[^1]&#160;<a class="footnote-backref" href="#fnref:33" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:cd">
+<p>[@]&#160;<a class="footnote-backref" href="#fnref:cd" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
 <li id="fn:ld">
-<p><a href="https://json-ld.org/learn.html">Information about json-ld linked data</a>&#160;<a class="footnote-backref" href="#fnref:ld" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://json-ld.org/learn.html">Information about json-ld linked data</a>&#160;<a class="footnote-backref" href="#fnref:ld" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:sdtl1">
-<p><a href="http://c2metadata.gitlab.io/sdtl-docs/master/summary/">Version 1.0</a> and <a href="http://c2metadata.org/">c2meta</a>&#160;<a class="footnote-backref" href="#fnref:sdtl1" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="http://c2metadata.gitlab.io/sdtl-docs/master/summary/">Version 1.0</a> and <a href="http://c2metadata.org/">c2meta</a>&#160;<a class="footnote-backref" href="#fnref:sdtl1" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:oair1">
-<p><a href="https://www.openaire.eu/what-is-metadata#:~:text=Some%20specific%20examples%20of%20metadata,economic%20sciences%2C%20including%20survey%20data">metadataOpenAIRE</a>&#160;<a class="footnote-backref" href="#fnref:oair1" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p><a href="https://www.openaire.eu/what-is-metadata#:~:text=Some%20specific%20examples%20of%20metadata,economic%20sciences%2C%20including%20survey%20data">metadataOpenAIRE</a>&#160;<a class="footnote-backref" href="#fnref:oair1" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:rda">
-<p><a href="http://rd-alliance.github.io/metadata-directory/">rda Metadata Standards Directory Working Group</a>&#160;<a class="footnote-backref" href="#fnref:rda" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p><a href="http://rd-alliance.github.io/metadata-directory/">rda Metadata Standards Directory Working Group</a>&#160;<a class="footnote-backref" href="#fnref:rda" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
