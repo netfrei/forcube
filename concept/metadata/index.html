@@ -879,20 +879,37 @@
 <li>There is a discussion about the advantage of <a href="https://ddialliance.org/announcement/public-review-structured-data-transformation-language-sdtl">Structured Data Transformation (SDTL)</a> which addresses the issue of data provenance.<sup id="fnref:sdtl1"><a class="footnote-ref" href="#fn:sdtl1">4</a></sup> A proposal is under review.</li>
 </ul>
 <p># Standards and NFDI4D's <em>Standards-Companion</em></p>
-<p>The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used:</p>
-<pre><code>  - Dublin Core, Zenodo API
-  - PID systems
-  - JSON-LD
-  - UTF 8
-  - CIDOC[^cd]
-  - Schema.org
-</code></pre>
+<p>The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used.</p>
+<p>Some specific examples of metadata standards, both general and domain specific are:</p>
+<ul>
+<li>Dublin Core - domain agnostic, basic and widely used metadata standard</li>
+<li>DDI (Data Documentation Initiative) - common standard for social, behavioral and economic sciences, including survey data</li>
+<li>EML (Ecological Metadata Language) - specific for ecology disciplines</li>
+<li>ISO 19115 and FGDC-CSDGM (Federal Geographic Data Committee's Content Standard for Digital Geospatial Metadata) - for describing geospatial information</li>
+<li>MINSEQE (MINimal information about high throughput SEQeuencing Experiments) - Genomics standard</li>
+<li>FITS (Flexible Image Transport System) - Astronomy digital file standard that includes structured, embedded metadata</li>
+<li>MIBBI - Minimum Information for Biological and Biomedical Investigations
+Where no appropriate, formal metadata standard exists, for internal use, writing “readme” style metadata is an appropriate strategy.
+If you need more information, check the following resources:</li>
+<li>DCC Metadata Standards</li>
+<li>RDA Metadata Directory</li>
+</ul>
+<p>Other standards and ontologies:</p>
+<ul>
+<li>Zenodo API</li>
+<li>PID systems</li>
+<li>JSON-LD</li>
+<li>UTF 8</li>
+<li>CIDOC<sup id="fnref:cd"><a class="footnote-ref" href="#fn:cd">2</a></sup></li>
+<li>Schema.org</li>
+</ul>
 <p>Researchers are not expected to master all these standards themselves and to be able to judge the advantages and disadvantages of other standards.</p>
 <p>Disciplines therefore develop or use their own specific terminologies, whereby research data distributed over various contexts of origin accumulates a conceptual vagueness that creates difficulties in the uncritical use of simple terminology. Linked Open Data (LOD) should therefore go beyond the sole use of ontologies and move from the possibilities of machine learning to the tested use of vague concepts. Mees, Thiery and Unold have convincingly pointed out use cases of provincial Roman archaeology and many others no subject. <sup id="fnref:33"><a class="footnote-ref" href="#fn:33">1</a></sup></p>
 <p>In order to offer the development as well as the use of the rich standards to researchers as a service, NFDI4SD is developing a <em>Standards-Companion</em>. Analogous to the Companion on legal standards, NFDI4SD is developing a Standards-Companion, which classifies the registered research data with the means of machine learning on the application of standards and directly generates an automated report on the standards used, their reference pages and further literature via the virtual research bench. Alternative standard concepts are also reported. The Standards-Companion constantly updates its own database and in this way ensures the harmonisation of research data. The data sources for the Standard-Companion are in particular</p>
-<pre><code>- Formal models of the standards
-- Labeled referenc data
-</code></pre>
+<ul>
+<li>Formal models of the standards</li>
+<li>Labeled data for machine learning</li>
+</ul>
 <h2 id="provenience">Provenience</h2>
 <p>Data Provenience will become part of the paratext of research data. It will be gathered by compiling a dependency graph between research data objects as described in either narrative publications or the analysis of computational notebooks. Each research data object will carry a unique identifyer and reference in research publication establish the dependencies between them. NFDI4SD registry will build up a large dependency graph for research data that will be the basis of supporting the cataloging and reuse of research data.</p>
 <div class="footnote">
