@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ontologien-cidoc-referenzdaten" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -320,9 +325,40 @@
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Paratext
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Paratext" class="md-nav__link md-nav__link--active">
       Paratext
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ontologien-cidoc-referenzdaten" class="md-nav__link">
+    Ontologien / CIDOC / Referenzdaten
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -753,6 +789,36 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ontologien-cidoc-referenzdaten" class="md-nav__link">
+    Ontologien / CIDOC / Referenzdaten
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -769,7 +835,10 @@
 <blockquote>
 <p>Metadata is data providing information about data that makes findable, trackable and (re)usable. It can include information such as contact information, geographic locations, details about units of measure, abbreviations or codes used in the dataset, instrument and protocol information, survey tool details, provenance and version information and much more.</p>
 </blockquote>
-<p>The recommended set of paratext data will be discussed at the beginning of the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of <a href="http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf">Datacite</a>. Following considerations might be taken into account:</p>
+<p>The recommended set of paratext data will be discussed at the beginning of the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of <a href="http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf">Datacite</a>. Wir teilen die Erfahrung, dass in der wichtigen Datenaggregation wie der Definition der Metadaten bislang standardisierte Ontologien nur eine untergeordnet Rolle spielen.</p>
+<h2 id="ontologien-cidoc-referenzdaten">Ontologien / CIDOC / Referenzdaten</h2>
+<p>NFDI4D wird ein reichhaltiges Portfolio von machinell verarbeiteten Ontologien zur Verfügung stellen (vergleichbar mit <img alt="Achres" src="https://arches.readthedocs.io/en/latest/ontologies-in-arches/" />), z.B. CRM (Conceptual Reference Model (<img alt="CIDOC" src="http://www.cidoc-crm.org/" />)). Das von NFDI4D bevorzugte bottom-up Modell der semantischen Frameworks und ihrer inferentiellen Verarbeitung sieht immer ein Prüfung ihrer Anwendungsbereiche durch die Projekt selbst vor. Die darauf aufbauenden machine learning algorithmen müssen immer ihre Qualitätsmetriken am annotierten Referenzdatenbeständen ausweisen. Diese Referenzdaten sind selbst im Idealfall publizierte, manuell von den Forschern ausgewählte und geprüfte Forschungsdaten.</p>
+<p>Following considerations might be taken into account:</p>
 <ul>
 <li>Paratext data will best be coded as <a href="https://json-ld.org/">JSON-LD</a> format, which as a lightweight Linked Data format allows a standardized API for complex hierarchical data structures. Its standards are ideal for an interoperable API, REST-services and Web interface.<sup id="fnref:ld"><a class="footnote-ref" href="#fn:ld">1</a></sup>Transformations into other formats and standards are planned.</li>
 <li>Core metadata, as required by ZENODO and generic data repositories, will be included in the set of metadata.</li>
@@ -780,6 +849,17 @@
 <li>Sufficient documentation of data, their origin, units, explanation of terms and cross-linking to standards of definition are recommended and will be assisted by appropriate tools using research feedback from the specific research community.</li>
 <li>There is a discussion about the advantage of <a href="https://ddialliance.org/announcement/public-review-structured-data-transformation-language-sdtl">Structured Data Transformation (SDTL)</a> which addresses the issue of data provenance.<sup id="fnref:sdtl1"><a class="footnote-ref" href="#fn:sdtl1">2</a></sup> A proposal is under review.</li>
 </ul>
+<p># Standards, Standards-Companion</p>
+<p>The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used:</p>
+<pre><code>  - Dublin Core, Zenodo API
+  - PID systems
+  - JSON-LD
+  - UTF 8
+</code></pre>
+<p>Researchers are not expected to master all these standards themselves and to be able to judge the advantages and disadvantages of other standards. In order to offer the development as well as the use of the rich standards to researchers as a service, NFDI4SD is developing a <em>Standards-Companion</em>. Analogous to the Companion on legal standards, NFDI4SD is developing a Standards-Companion, which classifies the registered research data with the means of machine learning on the application of standards and directly generates an automated report on the standards used, their reference pages and further literature via the virtual research bench. Alternative standard concepts are also reported. The Standards-Companion constantly updates its own database and in this way ensures the harmonisation of research data. The data sources for the Standard-Companion are in particular</p>
+<pre><code>- Formal models of the standards
+- Labeled referenc data
+</code></pre>
 <div class="footnote">
 <hr />
 <ol>
