@@ -1,4 +1,3 @@
-# User integration
 
 NFDI4SD zielt darauf ab, von der großen Nutzergruppe der Forscher der Kleinen Fächer wie auch andere  Interessierte auf ihre Bedürfnisse an Leistungen der Forschungsdateninfrastruktur hingewiesen zu werden. Mit Beginn der Arbeiten wird das NFDI4SD
 
@@ -20,25 +19,22 @@ Die Forschungsdaten werden maximal sichtbar katalogisiert und seine Metadaten in
 
 Das NFDI4SD verwendet community Ressourcen und schlägt die Nutzung von ZENODO als Publikationsplattform für Communities als eine der präferierten Plattformen als general repository für kleinen bis mittlere Datenbestände vor. Diese werden insbesondere für die sekundären Forschungsdaten besonders relevant.
 
-* Comparison of general research data repositories
+## Comparison of general research data repositories
 
 > The General Repository Comparison Chart and FAIRsharing Collection (https://fairsharing.org/collection/GeneralRepositoryComparison) is an outcome of the NIH Workshop on the Role of Generalist Repositories to Enhance Data Discoverability and Reuse held 11-12 February 2020 (workshop summary).  Following the workshop, representatives of the participating generalist repositories collaborated to develop a tool researchers could use to make decisions about selecting a general repository. We intend for the content to be dynamically updated through our partnership with FAIRsharing.  As we work towards that goal, we currently have a static version of the comparison.[^rda1]
 
 [^rda1]: [RDA management group](https://www.rd-alliance.org/groups/generalist-repository-comparison-chart-management-group)
 
-* Impact of Zenodo
+## Impact of Zenodo
 
-Studie zum Impact für Forschungsdaten: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3946720.svg)](https://doi.org/10.5281/zenodo.3946720)
+Studie zum Impact für Forschungsdaten @stall2020a
 
-* Discovery for software and data
+## Discovery for software and data
 
-Nutzungsweise bestehender Forschungdateninfrastruktur zur Suche: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1283381.svg)](https://doi.org/10.5281/zenodo.1283381)
+Nutzungsweise bestehender Forschungdateninfrastruktur zur Suche @nielsen2018:
 
-* Communities on zenodo
+## Communities on zenodo
 
-  * https://zenodo.org/communities/o2r/?page=1&size=20
-
-
-
+  -https://zenodo.org/communities/o2r/?page=1&size=20
   + https://gepris.dfg.de/gepris/projekt/142173438/ergebnisse
   + https://gepris.dfg.de/gepris/projekt/96214342/ergebnisse

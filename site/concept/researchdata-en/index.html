@@ -1,0 +1,1094 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.8">
+    
+    
+      
+        <title>Research Data - NFDI4SD</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.01afc2df.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.83bccb1f.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009485">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/ansi-colours.css">
+    
+      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+    
+      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#epistemology-of-research-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="NFDI4SD" class="md-header-nav__button md-logo" aria-label="NFDI4SD">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            NFDI4SD
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Research Data
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../.." class="md-tabs__link md-tabs__link--active">
+          Research Data
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../services/NFDIservices/" class="md-tabs__link">
+          NFDI4SD Services
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../research/ObjectiveTask/" class="md-tabs__link">
+          Research Organisation
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../usecases/orientation/" class="md-tabs__link">
+          Use Cases
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../governance/bodies/" class="md-tabs__link">
+          Governance
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../impressum/" class="md-tabs__link">
+          Impressum
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NFDI4SD" class="md-nav__button md-logo" aria-label="NFDI4SD">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    NFDI4SD
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      Research Data
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Research Data" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Research Data
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="NFDI4SD" class="md-nav__link">
+      NFDI4SD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../smalldisciplines-en/" title="Small Disciplines" class="md-nav__link">
+      Small Disciplines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Research Data
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Research Data" class="md-nav__link md-nav__link--active">
+      Research Data
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#epistemology-of-research-data" class="md-nav__link">
+    Epistemology of research data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#institutional-consequences-the-use-of-fair-principles" class="md-nav__link">
+    Institutional consequences: the use of FAIR principles
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#findable" class="md-nav__link">
+    Findable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessible" class="md-nav__link">
+    Accessible
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interoperable" class="md-nav__link">
+    Interoperable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reusable" class="md-nav__link">
+    Reusable
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../metadata/" title="Paratext" class="md-nav__link">
+      Paratext
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      NFDI4SD Services
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="NFDI4SD Services" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        NFDI4SD Services
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../services/NFDIservices/" title="Portfolio of services" class="md-nav__link">
+      Portfolio of services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../services/bench/" title="Computational Notebooks" class="md-nav__link">
+      Computational Notebooks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../services/publication/" title="Publication" class="md-nav__link">
+      Publication
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../services/contentprovider/" title="Content Partner" class="md-nav__link">
+      Content Partner
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Research Organisation
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Research Organisation" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Research Organisation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../research/ObjectiveTask/" title="Objectives and Task Areas" class="md-nav__link">
+      Objectives and Task Areas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../research/means/" title="Measures and Workpackages" class="md-nav__link">
+      Measures and Workpackages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../research/integration/" title="User" class="md-nav__link">
+      User
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../research/epistemology/" title="Epistemology" class="md-nav__link">
+      Epistemology
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Use Cases
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Use Cases" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Use Cases
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/orientation/" title="Taxonomy" class="md-nav__link">
+      Taxonomy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/rockart/" title="Rock Art" class="md-nav__link">
+      Rock Art
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/sundials/" title="Ancient Sundials" class="md-nav__link">
+      Ancient Sundials
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/karman/" title="Karman Collection" class="md-nav__link">
+      Karman Collection
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/sinology/" title="Sinology" class="md-nav__link">
+      Sinology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/florentinus/" title="Codex Florentinus" class="md-nav__link">
+      Codex Florentinus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/leo/" title="Euler Edition" class="md-nav__link">
+      Euler Edition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/kepler/" title="Kepler" class="md-nav__link">
+      Kepler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/sirdrake/" title="Francis Drake" class="md-nav__link">
+      Francis Drake
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/bernoulli/" title="Epidemology" class="md-nav__link">
+      Epidemology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../usecases/exoplanets/" title="Exoplanets" class="md-nav__link">
+      Exoplanets
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Governance
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Governance" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Governance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../governance/bodies/" title="bodies" class="md-nav__link">
+      bodies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../governance/biblio/" title="bibliography" class="md-nav__link">
+      bibliography
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Impressum
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Impressum" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Impressum
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../impressum/" title="impressum" class="md-nav__link">
+      impressum
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#epistemology-of-research-data" class="md-nav__link">
+    Epistemology of research data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#institutional-consequences-the-use-of-fair-principles" class="md-nav__link">
+    Institutional consequences: the use of FAIR principles
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#findable" class="md-nav__link">
+    Findable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessible" class="md-nav__link">
+    Accessible
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interoperable" class="md-nav__link">
+    Interoperable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reusable" class="md-nav__link">
+    Reusable
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                  <h1>Research Data</h1>
+                
+                <p><img alt="sd" src="../assets/NFDI4SD_research-data.jpg" /></p>
+<h2 id="epistemology-of-research-data">Epistemology of research data</h2>
+<p>Research data are not an invention of the digital age: since antiquity they have been published and used in the history of scholarship as a distinct type of information. The localities and paths of the ancient world were listed in data catalogues, such as Ptolemy’s <em>Geography</em>, and scholars determined the constellation of the stars with the help of Ptolemy’s <em>Handy Tables</em>. Early calendars and the dating of religious festivals were also based on research data, while encyclopaedias provided summaries of standardised knowledge. Extensive collections of research data created the success of modern scholarship and science in combination with the development of grand theories, although, as these collections were mostly collaborative projects, they often did not bear an author’s name. Research data are epistemically verified with the greatest of care in all academic cultures. They are bodies of knowledge that are regularly examined to identify errors as quickly as possible and to mark the validated data. Thus, research data are not simply information that is disseminated on the Internet in our digital age, linked to other data and made accessible irrespective of its truthfulness. Nor are they ‘closed data’, which, like rarefied treasures, are only accessible to the privileged few.</p>
+<p>The concept of knowledge was introduced by scholars to classify this special status of information about society and the world. With the generic nature of theory, we can characterize research data as the description of any class of objects that qualifies as knowledge. Research data as knowledge about the properties of research objects which have been methodologically evaluated by the academic community can therefore be distinguished from arbitrary information: research data are collaboratively, openly and critically examined; they represent a claim of validity that can be revised at any time. The organisation of scholarly communication and the ethos of dealing with knowledge are optimised in order to minimise errors. These established methodological mechanisms should apply to the research data of all disciplines.</p>
+<p>This special status of research data, together with all the academic disciplines, including in particular the so-called small disciplines, is the main focus of the NFDI4SD’s challenge of developing an appropriate research data infrastructure.</p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD1</strong>: Scholars and scientists consider research data to be fallible knowledge: they can be justified and can then serve as the basis for justifying statements; they can also qualify as epistemic states. To this end, they must be computationally identifiable at all times, independently of their symbolic form. All epistemic qualifications need to be transparent.</p>
+</div>
+<p>All the additional attributes that are used to handle research data as knowledge can be synthesised. Research data can be differentiated according to the components of the data’s content, the metadata and the epistemic knowledge claims qualification. The content of research data refers to the characteristics of the research objects described by the data. Research data always include both content and its additional attributes. As a result, an infrastructure of research data must assure and maintain data integrity.</p>
+<p>We can draw an analogy between our understanding of research data and the concept of paratext (@zotero-40395), which has been debated in the past few years: according to the philologically based concept introduced by Gérard Genette (1930–2018), paratexts are those elements that have been added to the main text of an (originally literary) work and which decisively influence and control the reception and distribution of the work. These elements include information on the author, the publisher, the title, preface, acknowledgements, advertising, and so forth. [^1] The concept of paratext, which directs greater attention to production processes and to cases of authorisation, was later extended to include various types of text and new media formats. In the context of the digitisation of research data, this means that the verification, authorisation and permanent accessibility of research data will have a particularly decisive influence on the adherence and further development of national and international standards and quality requirements.</p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD2</strong>: Research data are composed of content, metadata and epistemic attributes. All the information on the data sources, such as main texts and paratexts, is unified within the research data. The composition of the data needs to adhere to epistemic principles in order to enhance the way in which knowledge is obtained, accessed and maintained.</p>
+</div>
+<p>It was the physicist and philosopher Hans Reichenbach (1891–1953) who codified the distinction between the context of discovery and the context of justification in connection with critically evaluating statements. The context of discovery takes into account the causes that lead to new insights being formed and the evaluation of scientific evidence. The basis for the justification of statements must be differentiated from the discovery of statements, regardless of whether they are theoretical hypotheses or the content of research data. Researchers who are looking for new answers and who create and use research data for this purpose, focus on the context of discovery. However, in doing so they overlook the fact that a discovery process is always based on knowledge that has already been justified. Research data are validated particularly carefully if they are being prepared for publication during the research process.</p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD3</strong>: The value of research data must always be assessed according to how it will be reused by others and not from the perspective of the first person involved in the discovery process.</p>
+</div>
+<p>The justification of knowledge – and thus the validity of research data – is a collaborative task of the entire research community. Therefore, the research data infrastructure must provide the means to track the provenance of research data as well as the epistemic dependence on tertiary sources. This is rarely guaranteed at present.</p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD4</strong>: The justification of the data by other research data should be as transparent and comprehensible as possible. A ‘dependency graph’ can show how research data is connected to other research data and thus clarify the epistemic dependencies between them. The academic assumptions that determine the validity of the research data should be clearly identifiable.</p>
+</div>
+<p>It thus follows that newly acquired data within an innovative research organisation must be made available to other academics as quickly and completely as possible if the data is to be epistemically possible. This act of transferring research data from the hands of individual researchers who are working in the context of discovery to the public has its own special term: <em>academic publication</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD5</strong>: Publication. The publishing of research data is the act of handing over compiled findings of data that were made in the discovery context to the academic community. Only then do the findings become justified knowledge. Research data is given the status of empirical findings only once they have been published. Research data publication leads to citable data sets, which are listed in the bibliographies of other authors, such as in current research literature.</p>
+</div>
+<p>The consequence is that research data publication is now being considered as early as possible in management planning. A strict sequence of processes, in which the publication of research data is planned only after the completion of a project and after all other activities have been finalised, is thus no longer logical from the point of view of academic theory; indeed, it adversely affects innovative research. The modified workflow of data publication and data citation will result in research projects gaining greater visibility, while the publication of one’s own data will significantly increase the impact of the project and the people involved in it.</p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD6</strong> Citing research data. The origin of reused research data should always be cited. Research data should be cited, like any other scholarly source, in bibliographies or lists of references. The format of a data citation also resembles the reference styles of other bibliographical sources. Citations can be managed and administered in citation databases or by using citation tools.</p>
+</div>
+<p>During the course of a research project, a great deal of research data is created in relation to other data. The new data are annotated, linked or are used in other ways to further research. The scope of these research data is huge, yet currently very little of these data are published. These data sets considerably increase the usefulness of the linked data.</p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD7</strong> Enhancing research data. Modern research projects create a rich and additional amount of research data during the research process.</p>
+</div>
+<h2 id="institutional-consequences-the-use-of-fair-principles">Institutional consequences: the use of FAIR principles</h2>
+<p>We understand the FAIR data principles to be a framework for developing an infrastructure that serves research data as a knowledge base with the purpose of creating a collaborative and open science.</p>
+<p>In order to create the conditions for such a framework, a number of leading international research associations and institutions committed themselves to implementing the FAIR data principles. Increasingly, many funding bodies only allocate funds to projects that fulfil FAIR conditions. Today, however, these conditions cannot be guaranteed by researchers alone: research projects in the small disciplines that are managed in an agile and collaborative way in particular do not tend to have the resources to meet the special requirements of providing and using research data. A research-based infrastructure will be needed.</p>
+<p>The FAIR principles can be interpreted in a variety of ways, but we intend to follow the proposals of the GO FAIR initiative, <sup id="fnref:gofair"><a class="footnote-ref" href="#fn:gofair">1</a></sup>the vision of which is to foster ‘the coherent development of the global Internet of FAIR Data &amp; Services (IFDS), with the main focus on early developments in the European Open Science Cloud (EOSC)’.<sup id="fnref:gof1"><a class="footnote-ref" href="#fn:gof1">2</a></sup></p>
+<div class="admonition note">
+<p class="admonition-title">research data</p>
+<p><strong>RD8</strong>: The FAIR principles (reproduced below from the GO FAIR website) regulate the technical implementation of research data. The NFDI4D will use these guidelines to implement its research data infrastructure. The guidelines are intended to ‘improve the Findability, Accessibility, Interoperability and Reuse of digital assets’:</p>
+</div>
+<h2 id="findable">Findable</h2>
+<blockquote>
+<p>The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.</p>
+<p>F1. (Meta)data are assigned a globally unique and persistent identifier</p>
+<p>F2. Data are described with rich metadata (defined by R1 below)</p>
+<p>F3. Metadata clearly and explicitly include the identifier of the data they describe</p>
+<p>F4. (Meta)data are registered or indexed in a searchable resource</p>
+</blockquote>
+<h2 id="accessible">Accessible</h2>
+<blockquote>
+<p>Once the user finds the required data, s/he needs to know how can they be accessed, possibly including authentication and authorisation.</p>
+<p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol</p>
+<p>A1.1 The protocol is open, free, and universally implementable</p>
+<p>A1.2 The protocol allows for an authentication and authorisation procedure, where necessary</p>
+<p>A2. Metadata are accessible, even when the data are no longer available</p>
+</blockquote>
+<h2 id="interoperable">Interoperable</h2>
+<blockquote>
+<p>The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage and processing.</p>
+<p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</p>
+<p>I2. (Meta)data use vocabularies that follow FAIR principles</p>
+<p>I3. (Meta)data include qualified references to other (meta)data</p>
+</blockquote>
+<h2 id="reusable">Reusable</h2>
+<blockquote>
+<p>The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.</p>
+<p>R1. (Meta)data are richly described with a plurality of accurate and relevant attributes</p>
+<p>R1.1. (Meta)data are released with a clear and accessible data usage license</p>
+<p>R1.2. (Meta)data are associated with detailed provenance</p>
+<p>R1.3. (Meta)data meet domain-relevant community standards</p>
+</blockquote>
+<p>Many of the principles mentioned above are open to a number of interpretations. As a result, no technical specifications can be deduced from these regulations. Expressions for the release of and access to data, such as ‘released’ and ‘accessible’, do not give enough information on the procedures. The NFDI4SD’s partner Zenodo, which is hosted by CERN, has developed its own ‘best effort principles’. (s) A substantial part of the publishing of small- and medium-sized research data collections is expected to be done on the Zenodo platform. Larger collections will be stored in separate data repositories. To begin with, the larger collections will carry out Zenodo’s implementation proposals.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:gofair">
+<p><a href="https://www.go-fair.org/go-fair-initiative/">go fair</a>&#160;<a class="footnote-backref" href="#fnref:gofair" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:gof1">
+<p><a href="https://www.go-fair.org/fair-principles/">Go fair principles</a>&#160;<a class="footnote-backref" href="#fnref:gof1" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:s">
+<p>The goal of an open-access infrastructure is prominently formulated in Plan S[<a href="#_msocom_1">GS1]</a> and has been placed on the agenda of many European academic institutions. The findings of a self-evaluation concerning these objectives are to be published, together with the determined metrics of the research data, on a regular basis.&#160;<a class="footnote-backref" href="#fnref:s" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:">
+<p>[<a href="#_msoanchor_1">GS1]</a>Perhaps Plan S should be explained: (which requires that scientists and researchers working for state-funded organisations publish their work in open repositories or in journals available to all by 2021).&#160;<a class="footnote-backref" href="#fnref:" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../smalldisciplines-en/" title="Small Disciplines" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Small Disciplines
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../metadata/" title="Paratext" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Paratext
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="http://grasshoff.github.io/Cube/" target="_blank" rel="noopener" title="grasshoff.github.io" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: {"tabs": true},
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

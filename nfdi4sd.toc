@@ -1,0 +1,66 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Research Data}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}NFDI4SD}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}The task}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Benefits}{4}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}Research}{4}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}Young scholars and scientists}{4}{subsubsection.1.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.3}Content providers, libraries, archives and repositories}{4}{subsubsection.1.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.1.2.4}Community}{5}{subsubsection.1.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.1.2.5}Funding institution}{5}{subsubsection.1.1.2.5}%
+\contentsline {section}{\numberline {1.2}Small Disciplines}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research Data}{11}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Epistemology of research data}{11}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Institutional consequences: the use of FAIR principles}{14}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Findable}{15}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Accessible}{15}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Interoperable}{16}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Reusable}{16}{subsection.1.3.6}%
+\contentsline {section}{\numberline {1.4}Paratext}{17}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Metadata}{18}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Ontologien / CIDOC / Referenzdaten}{18}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Provenience}{20}{subsection.1.4.3}%
+\contentsline {chapter}{\numberline {2}NFDI4SD Services}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Portfolio of services}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Cube services}{23}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Competing proposals}{23}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Registry of research data repositories}{23}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Recommended Data repositories}{23}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Research data publications of publishing houses}{24}{subsubsection.2.1.2.3}%
+\contentsline {section}{\numberline {2.2}Computational Notebooks}{24}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Jupyter notebooks}{24}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}ObservableHQ}{25}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}collaborative writing}{26}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}embedding}{26}{subsubsection.2.2.2.2}%
+\contentsline {section}{\numberline {2.3}Publication}{26}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Research data on Zenodo}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Research data publication of repositories}{29}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Interactive articles}{29}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Content Partner}{31}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Content provider}{31}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Table of envisaged provider}{31}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Research Organisation}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Objectives and Task Areas}{32}{section.3.1}%
+\contentsline {subsection}{\numberline {3.2.1}Objectives}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Task areas}{35}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Measures and Workpackages}{37}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Work program}{37}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Terminology}{37}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}User}{40}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Forscher laufend informieren}{40}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Über Forschungsdaten informieren}{41}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}NFDI4SD general repository}{41}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Comparison of general research data repositories}{41}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Impact of Zenodo}{41}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Discovery for software and data}{42}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Communities on zenodo}{42}{subsection.3.5.7}%
+\contentsline {section}{\numberline {3.6}Epistemology}{42}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Epistemology of research data}{42}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Impact Analysen}{42}{subsection.3.7.1}%
+\contentsline {chapter}{\numberline {4}Governance}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}bodies}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Consortium}{43}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Forms and regulations:}{44}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Budget summary}{44}{section.4.4}%
+\contentsline {section}{\numberline {4.5}bibliography}{45}{section.4.5}%
+\contentsline {section}{Bibliography}{45}{section*.7}%

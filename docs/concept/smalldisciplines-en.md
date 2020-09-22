@@ -1,6 +1,5 @@
-**Why do the ‘small disciplines’ need an NFDI?**
 
-![sd](assets/NFDI4SmallDisciplines.jpg)
+![sd](assets/NFDI4SD_small-disciplines.jpg)
 
 Ongoing digitalisation and the Open Access movement are transforming the research process and are greatly increasing the dissemination of research data. As a result, academic institutions – such as universities, research institutes but also smaller groups and agents – are increasingly committing themselves to managing research data sustainably and ensuring the interdisciplinary exchange of data. The initiative to establish a National Research Data Infrastructure, with the aim of reviewing the systematic planning, collection, processing, analysis, archiving, publication and exchange of data of various types to be reused by the scientific community and the general public, reflects this tremendous structural change.
 
@@ -78,7 +77,7 @@ A further factor to be considered is the highly collaborative and transdisciplin
 
 [^5]: See https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher.html.
 
-These working methods concern not only the collaborative work undertaken between several small and/or medium disciplines, but also the teaching and supervision of young researchers. Given the breadth of topics and the variety of methods, many of the research questions and topics covered in the small disciplines can often only be  adequately addressed by interdisciplinary collaboration: innovations are typically achieved through cross-disciplinary and cross-cultural work in transnational exchanges . The provision of digital networking, the exchange of research data and a powerful and user-friendly infrastructure to help realise and expand these goals  in the future are thus of huge importance.
+These working methods concern not only the collaborative work undertaken between several small and/or medium disciplines, but also the teaching and supervision of young researchers. Given the breadth of topics and the variety of methods, many of the research questions and topics covered in the small disciplines can often only be  adequately addressed by interdisciplinary collaboration: innovations are typically achieved through cross-disciplinary and cross-cultural work in transnational exchanges. The provision of digital networking, the exchange of research data and a powerful and user-friendly infrastructure to help realise and expand these goals in the future are thus of huge importance.
 
 **The small disciplines: formal criteria**
 
@@ -86,7 +85,7 @@ In order to differentiate the small disciplines from larger departments and sub-
 
 [^6]: These criteria serve as the working basis and definition of the Small Disciplines’ Unit. See https://www.kleinefaecher.de/kartierung/was-ist-ein-kleines-fach.html.
 
- that will be used as the basis for determining the characteristics, user profiles and specific requirements when using research data. At present, the unit encompasses 157 small disciplines and 2,311 professorships at 89 locations throughout Germany. These small disciplines fall into six disciplinary divisions : (1) the Humanities; (2) Health Sciences; (3) Engineering and Technology; (4) Art and Art History/Aesthetics ; (5) Natural Sciences, Agricultural Sciences and Geography; and (6) Law, Economics and Social Sciences. They can be further divided into 19 sections .
+that will be used as the basis for determining the characteristics, user profiles and specific requirements when using research data. At present, the unit encompasses 157 small disciplines and 2,311 professorships at 89 locations throughout Germany. These small disciplines fall into six disciplinary divisions : (1) the Humanities; (2) Health Sciences; (3) Engineering and Technology; (4) Art and Art History/Aesthetics ; (5) Natural Sciences, Agricultural Sciences and Geography; and (6) Law, Economics and Social Sciences. They can be further divided into 19 sections .
 
 [^7]: See Hoffmann, Stefanie; Haas, Katharina; Bahlmann, Katharina; Schmidt, Uwe, 2019: Report on the state of mapping the small disciplines as part of the project, ‘The exchange of experiences, networking and encouraging the visibility of the small disciplines’, esp. p. 9f.
 
@@ -94,15 +93,15 @@ More than half of the small disciplines are fields of study in the Humanities, f
 
 [^8]: See Hoffmann, Stefanie; Haas, Katharina; Bahlmann, Katharina; Schmidt, Uwe, 2019: Report on the state of mapping the small disciplines as part of the project, ‘The exchange of experiences, networking and encouraging the visibility of the small disciplines’, esp. p. 18.
 
-A decisive factor in this context is that the specific interests of many of the disciplines grouped together in the six disciplinary divisions have so far not been addressed separately, if at all, which is due, in part at least , to a relatively pronounced dynamic in the field: new small disciplines, such as Digital Humanities or Biodiversity, are becoming established, while others are losing their status as ‘small’ disciplines, either because the fields of study are growing in popularity or because they are being absorbed into larger disciplines.
+A decisive factor in this context is that the specific interests of many of the disciplines grouped together in the six disciplinary divisions have so far not been addressed separately, if at all, which is due, in part at least , to a relatively pronounced dynamic in the field: new small disciplines, such as Digital Humanities or Biodiversity, are becoming established, while others are losing their status as ‘small’ disciplines, either because the fields of study are growing or because they are being absorbed into larger disciplines.
 
 For a field of study to be considered a small discipline:
 
-- there should be no more than three tenured  professorships per location, although up to two exceptions are possible nationwide. The respective discipline will have its own professorships at specific appointment grades .
+- there should be no more than three tenured professorships per location, although up to two exceptions are possible nationwide. The respective discipline will have its own professorships at specific appointment grades.
 
-- there should be separate study programmes with a degree at the end. The respective academic discipline is represented at German universities with its own study programmes (Bachelor’s degree, Master’s degree, diploma, state exam  ).
+- there should be separate study programmes with a degree at the end. The respective academic discipline is represented at German universities with its own study programmes (Bachelor’s degree, Master’s degree, diploma, state exam).
 
-- young academics, that is, those who have the potential to obtain a doctorate , should be selected and trained. Junior professorships, with the prospect of permanent or tenure-track positions, should be established.
+- young academics, that is, those who have the potential to obtain a doctorate, should be selected and trained. Junior professorships, with the prospect of permanent or tenure-track positions, should be established.
 
 
 
@@ -110,7 +109,7 @@ For a field of study to be considered a small discipline:
 
 The small disciplines are no longer simply project-oriented but generally have an international and collaborative focus so that the thematically and structurally determined research requirements can be met. They also have a well-defined communications strategy that includes the use of appropriate types of media as well as a distinct approach for disseminating information to the general public. This includes:
 
-- the belief in the small discipline as a subject in its own right: The professors who represent the respective branch of academic study at German universities see their fields of study as an independent subject.
+- the belief in the small discipline as a subject in its own right: the professors who represent the respective branch of academic study at German universities see their fields of study as an independent subject.
 
 - representation by a learned society: the respective branch of knowledge is represented by a national or international learned society. In exceptional cases, it may be acceptable that the field of study is recognized as an independent subject by a learned society. Crucially, this is a requirement of various institutions for access to funding and on which small disciplines are particularly dependent.
 
@@ -120,15 +119,15 @@ The small disciplines are no longer simply project-oriented but generally have a
 
 **Target groups and their requirements**
 
-The main objective of the NFDI4SD is to provide services and an infrastructure for all the small disciplines and the academic divisions and groups represented by them so that their scholars can realise their individual goals and projects through viable research data management. A service structure set up modularly according to the respective needs and requirements should be of great help. The various professional, communications and publication cultures of scholars and scientists (hereafter referred to as users, agents or researchers) need to be taken into account and should  not be restricted by static and inflexible conditions and processes. In 2019, the sociologist Rudolf Stichweh described academic disciplines in the context of cell differentiation  and dedifferentiation movements  as highly dynamic communications systems: digitisation is thus intensifying the increasing emphasis in present-day research on project planning and a problem-centred way of working as is today’s growing demand for higher-level professional qualifications .
+The main objective of the NFDI4SD is to provide services and an infrastructure for all the small disciplines and the academic divisions and groups represented by them so that their scholars can realise their individual goals and projects through viable research data management. A service structure set up modularly according to the respective needs and requirements should be of great help. The various professional, communications and publication cultures of scholars and scientists need to be taken into account and should not be restricted by static and inflexible conditions and processes. In 2019, the sociologist Rudolf Stichweh described academic disciplines in the context of differentiation and dedifferentiation movements as highly dynamic communications systems: digitisation is thus intensifying the increasing emphasis in present-day research on project planning and a problem-centred way of working as is today’s growing demand for higher-level professional qualifications.
 
 [^9]: See Szöllösi-Brenig, Vera: Report on the symposium, ‘Disciplines in motion – Differentiation and de-differentiation in the academic system?’, 2019, p. 2; https://www.volkswagenstiftung.de/sites/default/files/downloads/2019-05%20Bericht_FÃ¤cher-in-Bewegung.pdf (last accessed on 30.08.2020).
 
-The NFDI4SD consortium will therefore include researchers from a number of different disciplines as well as interested institutions in the development process of the new infrastructure through, among other things, social media, the development, dissemination and evaluation of questionnaires on the desired service package and the tendering and funding of pilot projects. The knowledge and experience gained will be incorporated into the structure and development process of the NFDI4SD and will be evaluated successively. The aim is to make research data reusable through a number of different action strategies in order to avoid the data being lost to the general public  owing to a lack of time, expertise or financial means.
+The NFDI4SD consortium will therefore include researchers from a number of different disciplines as well as interested institutions in the development process of the new infrastructure through, among other things, social media, the development, dissemination and evaluation of questionnaires on the desired service package and the tendering and funding of pilot projects. The knowledge and experience gained will be incorporated into the structure and development process of the NFDI4SD and will be evaluated successively. The aim is to make research data reusable through a number of different action strategies in order to avoid the data being lost owing to a lack of time, expertise or financial means.
 
-At this juncture, another feature of the NFDI4SD makes itself known: projects at different stages of development, of varying sizes and with varying funding periods are explicitly addressed , from qualification projects, such as university theses and dissertations, to larger research groups at institutions or universities.
+At this juncture, another feature of the NFDI4SD makes itself known: projects at different stages of development, of varying sizes and with varying funding periods are explicitly addressed, from qualification projects, such as university theses and dissertations, to larger research groups at institutions or universities.
 
-The publication of research findings, particularly in the case of doctoral theses, has, in many disciplines, so far been the primary indicator of the success of a research project, while the underlying data were not contextualized or systematically indexed . This meant that the data could not be cited in other academic studies without first having been reworked. In  more extensive interdisciplinary research projects and collaborative work, the insights and partial findings gained through communicating with others and making evaluations from a number of different perspectives are of particular importance as they facilitate the publication of research data and partial findings. As a consequence, a stronger dynamic is developed, which benefits the entire research process.
+The publication of research findings, particularly in the case of doctoral theses, has, in many disciplines, so far been the primary indicator of the success of a research project, while the underlying data were not contextualized or systematically indexed. This meant that the data could not be cited in other academic studies without first having been reworked. In more extensive interdisciplinary research projects and collaborative work, the insights and partial findings gained through communicating with others and making evaluations from a number of different perspectives are of particular importance as they facilitate the publication of research data and partial findings. As a consequence, a stronger dynamic is developed, which benefits the entire research process.
 
 **Desiderata**
 

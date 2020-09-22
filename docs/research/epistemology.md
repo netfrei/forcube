@@ -1,22 +1,26 @@
 # Epistemology of research data
 
-Das epistemologische Netzwerk des NFDI4SD wird eine Weltneuheit. Forschungsdaten werden in der registry des NFDI4SD zusammen getragen, und zwar nicht nur die Forschungsdaten, für die Forscher die Dienste des NFDI in Anspruch genommen haben. Vergleichbar mit einer weltweiten Google webscaping aller Publikationen werden alle zugänglichen Veröffentlichungen mit den machine learning tools inhaltlich erschlossen. Deep learning models erschließen die Inhalte und klassifizieren die Forschungsdaten, auf die sich die Argumentationen der Publikationen epistemisch stützen. Diese Suchen werden zunächst für die Disziplinen der Kleinen Fächer aufbereitet und können sehr gehaltvolle und spezifische Hilfestellungen für die Forschungsprojekte der Kleinen Fächer bieten. Das registry des NFDI4SD erstellt einen besonderen **epistemic knowledge graph** für die vielfältigsten Zusammenhänge der Forschungsdaten:
 
-## Hierarchische Cluster verwandter Forschungsdaten
 
-Vielfältige Visualisierungen verdeutlichen Duzende epistemischer Relationen zwischen allen global publizierten Forschungsdaten. Folgendes Diagramm kann die Abhängigkeiten zwischen verschiedenen, publizierten Forschungsdaten - genannt nach den Charakteren aus *Le Miserables* mit Linien verbunden zusammenführen. Die Forschungsdaten können nach unterschiedlichen Themen gruppiert und mit machine learning Techniken klassifiziert werden.
+The epistemological network of the NFDI4SD will be a novelty. Research data are usually published in logical isolation and, if necessary, searched through cataloguing categories. In the visualisation, different objects of research data are classified by category in a thematic cube.
 
-<div id="observablehq-e07dff86"></div>
+<div id="observablehq-1b6667d6"></div>
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/1bb08f205755dc92.js?v=3";
-const inspect = Inspector.into("#observablehq-e07dff86");
-(new Runtime).module(define, name => name === "chart" ? inspect() : undefined);
+import define from "https://api.observablehq.com/@openscience/three-js-interactive-cubes.js?v=3";
+const inspect = Inspector.into("#observablehq-1b6667d6");
+(new Runtime).module(define, name => name === "canvas" ? inspect() : undefined);
 </script>
+
+
+The registry of the NFDI4SD enhances browsing in research data catalogues. It uses machine learning methods to create relationships between the data: Provenance or inferential relationships. These networks are created for all catalogued research data, not only those for which researchers have used the services of the NFDI.Similar to citation graphs of citations between publications, all accessible publications of research data are referentially linked with machine learning tools.
+
+
+Deep learning models reveal the content and classify the research data on which the argumentation of the publications is epistemically based.These searches are initially prepared for the small subjects and can offer very substantial and specific support for the research projects.  The registry of the NFDI4SD creates a special **epistemic knowledge graph** for the most diverse contexts of research data:
 
 ## Impact Analysen
 
-Nutzungszusammenhänge zwischen Forschungsdaten zeigen die vielfältigen Nutzungsweisen auf. Im folgenden Diagramm werden die Nutzungsstränge durch verschiedene Breiten der Zonen dargestellt.
+Usage relationships between research data show the wide range of uses. In the following diagram, the usage strands are represented by different widths of the zones.
 
 <div id="observablehq-89935fa8"></div>
 <script type="module">

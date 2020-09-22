@@ -1,7 +1,7 @@
 # Consortium
 
 
-![NFDI4SD](../assets/NFDI4SD.svg "Consortium")
+![NFDI4SD](assets/NFDI4SD.png "Consortium")
 
 All spokespeople are members of the **steering committee** which regularly  reviews and decides per majority
 - timeline of workpackages
@@ -33,4 +33,4 @@ A **pilot period** from January 2021 until a project inauguration time will cond
 
 # Budget summary
 
-Costs for staff are estimated according to the [Personalmittelsätze DFG](https://www.dfg.de/formulare/60_12/60_12_de.pdf)
+Staff will be appointed by the applicant institutions in line with the [Personalmittelsätze DFG](https://www.dfg.de/formulare/60_12/60_12_de.pdf). Institutions will supply the required working facilities. The main applicant institution will provide adminstrative facilities for the NFDI4SD. Co-applications will have no additional financial and structural obligation beyond these commitments as described in the submitted detailed budget plan. 

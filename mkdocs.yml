@@ -1,26 +1,24 @@
 site_name: NFDI4SD
 nav:
-  - Research data:
+  - Research Data:
       - NFDI4SD: index.md
-      - Summary: concept/summary-en.md
       - Small Disciplines: concept/smalldisciplines-en.md
-      - Research Data: concept/researchdata.md
-      - Paratext: services/metadata.md
+      - Research Data: concept/researchdata-en.md
+      - Paratext: concept/metadata.md
   - NFDI4SD Services:
-      - Computational notebooks: services/bench.md
-      - Service portfolio: services/NFDIservices.md
-      - Modes of publication: services/publication.md
-      - Cloud services: services/cloud.md
-      - Content partner: services/contentprovider.md
-  - Research organisation:
-      - Objectives and Task Areas: concept/ObjectiveTask.md
-      - Measures/workpackages: concept/means.md
-      - User integration: research/integration.md
+      - Portfolio of services: services/NFDIservices.md
+      - Computational Notebooks: services/bench.md
+      - Publication: services/publication.md
+      - Content Partner: services/contentprovider.md
+  - Research Organisation:
+      - Objectives and Task Areas: research/ObjectiveTask.md
+      - Measures and Workpackages: research/means.md
+      - User : research/integration.md
       - Epistemology: research/epistemology.md
   - Use Cases:
       Taxonomy: usecases/orientation.md
-      Rock art: usecases/rockart.md
-      Ancient sundials: usecases/sundials.md
+      Rock Art: usecases/rockart.md
+      Ancient Sundials: usecases/sundials.md
       Karman Collection: usecases/karman.md
       Sinology: usecases/sinology.md
       Codex Florentinus: usecases/florentinus.md
@@ -31,10 +29,9 @@ nav:
       Exoplanets: usecases/exoplanets.md
   - Governance:
       - bodies: governance/bodies.md
-#      - partner: governance/NFDI4SD-Kooperationspartner.md
-#    - Bibliography: concept/biblio.md
-  - Impressum:
-      - Impressum: impressum.md
+      - bibliography: governance/biblio.md
+  -  Impressum:
+      impressum: impressum.md
 theme:
   name: material
   font: Roboto
@@ -66,10 +63,6 @@ extra:
 plugins:
   - search
   - mknotebooks
-#  - pdf-export:
-#      verbose: True
-#      media_type: print
-#      enabled_if_env: ENABLE_PDF_EXPORT
   - bibtex:
       bib_file:  "NFDI.bib"
       cite_style:  "pandoc"

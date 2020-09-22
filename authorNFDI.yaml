@@ -1,0 +1,58 @@
+---
+title: "NFDI 4 small disciplines"
+subtitle: "Antragsentwurf"
+author: "NFDI Consortium - Prof. Dr. Gerd Graßhoff"
+date: "September 2020"
+lang: "en"
+book: true
+number-sections: true
+top-level-division: chapter
+pandoc-latex-admonition:
+  - color: firebrick
+    classes: [note, Objective]
+  - color: gray
+    classes: [Task_area]
+  - color: LightPink
+    classes: [important]
+    linewidth: 4
+  - color: Khaki
+    classes: [warning]
+    linewidth: 4
+  - color: DarkSeaGreen
+    classes: [tip]
+    linewidth: 4
+  - color: Ivory
+    classes: [note]
+    linewidth: 4
+  - color: DodgerBlue
+    classes: [slide-content]
+    linewidth: 4
+header-includes:
+- |
+  ```{=latex}
+  \usepackage{awesomebox}
+  \usepackage{booktabs}
+  \usepackage{multirow}
+  \usepackage{lscape}
+  \usepackage{longtable}
+  ```
+output:
+  pdf_document:
+    highlight: pygments
+    fontsize: 12pt
+    geometry: margin=2in
+bibliography:
+    - NFDI.bib
+titlepage: true
+link-citations: true
+toc: true
+toc-own-page: true
+tables: true
+logo: assets/nfdilogo.jpg
+colorlinks: "green"
+urlcolor: "blue"
+classoption: oneside
+titlepage-color: "5F5F5F"
+titlepage-text-color: "FFFFFF"
+titlepage-rule-color: "FFFFFF"
+...
