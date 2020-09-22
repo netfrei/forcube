@@ -1,5 +1,5 @@
 
-![sd](assets/NFDI4SD_small-disciplines.jpg)
+![sd](assets/NFDI4SD_small-disciplines.png)
 
 Ongoing digitalisation and the Open Access movement are transforming the research process and are greatly increasing the dissemination of research data. As a result, academic institutions – such as universities, research institutes but also smaller groups and agents – are increasingly committing themselves to managing research data sustainably and ensuring the interdisciplinary exchange of data. The initiative to establish a National Research Data Infrastructure, with the aim of reviewing the systematic planning, collection, processing, analysis, archiving, publication and exchange of data of various types to be reused by the scientific community and the general public, reflects this tremendous structural change.
 

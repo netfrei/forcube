@@ -1,14 +1,9 @@
 
-![](assets/NFDI4SD_services.jpg)
+![](assets/NFDI4SD_services.png)
 
 
 Services unterstützen die workflow der Bearbeitung von Forschungsdaten. Die meisten NFDI4D Services werden als Programmpakete in den Datenprozesse von computational notebooks aufgerufen. Es werden viele der open als open  Sie sind in Service-Klassen unterschieden, die wiederum eine Reihe von einzelnen Modulen enthalten. Ihre Parameter erlaubten ein hoch flexibles Pipelining der Services, so dass Ketten von Services miteinander verschränkt werden können und automatisierte Bearbeitungspipelines für Forschungsdaten eingerichtet werden können.
 
-![NFDIServices](assets/NFDIServices.png)
-
-## Cube services
-
-![Cube Servcies](assets/NFDI4SD_cube-services_1.jpg)
 
 NFDI4SD develops a portfolio of cloud services being inspired by goog practive roles models.
 

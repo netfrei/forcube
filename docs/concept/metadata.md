@@ -1,4 +1,4 @@
-![](assets/NFDI4SD_paratext.jpg)
+![](assets/NFDI4SD_paratext.png)
 
 ## Metadata
 
@@ -6,15 +6,13 @@ Besides the content data, the paratext of research data contains different types
 
 >Metadata is data providing information about data that makes findable, trackable and (re)usable. It can include information such as contact information, geographic locations, details about units of measure, abbreviations or codes used in the dataset, instrument and protocol information, survey tool details, provenance and version information and much more.
 
-The recommended set of paratext data will be discussed at the beginning of the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of [Datacite](http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf). We share the experience that in the important data aggregation such as the definition of metadata, standardised ontologies only play a subordinate role so far. A standardisation of terminology and meaning will still be a tightly controlled part of the data preparation process.
+The recommended set of paratext data will be regularly discussed by the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of [Datacite](http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf). We share the experience our data aggregation that oversize sets of metadata and standardised ontologies only play a subordinate role for the disciplines. A standardisation of terminology and meaning will still be a closely controlled part of the data preparation process.
 
 ## Ontologien / CIDOC / Referenzdaten
 
-NFDI4D wird ein reichhaltiges Portfolio von machinell verarbeiteten Ontologien zur Verfügung stellen (vergleichbar mit [Achres](https://arches.readthedocs.io/en/latest/ontologies-in-arches/)), z.B. CRM (Conceptual Reference Model ([CIDOC](http://www.cidoc-crm.org/))). Das von NFDI4D bevorzugte bottom-up Modell der semantischen Frameworks und ihrer inferentiellen Verarbeitung sieht immer ein Prüfung ihrer Anwendungsbereiche durch die Projekt selbst vor. Die darauf aufbauenden machine learning algorithmen müssen immer ihre Qualitätsmetriken am annotierten Referenzdatenbeständen ausweisen. Diese Referenzdaten sind selbst im Idealfall publizierte, manuell von den Forschern ausgewählte und geprüfte Forschungsdaten.
+NFDI4D will optionally provide a rich portfolio of machine processed ontologies (comparable to [Achres](https://arches.readthedocs.io/en/latest/ontologies-in-arches/)), e.g. CRM (Conceptual Reference Model ([CIDOC](http://www.cidoc-crm.org/)). The bottom-up model of semantic frameworks and their inferential processing preferred by NFDI4D always provides for a review of their application areas by the project itself. The machine learning algorithms based on this model must always show their quality metrics against the annotated reference data set. These reference data are themselves ideally published research data, manually selected and checked by the researchers.
 
-
-
-Following considerations might be taken into account:
+Following considerations will be taken into account:
 
   - Paratext data will best be coded as [JSON-LD](https://json-ld.org/) format, which as a lightweight Linked Data format allows a standardized API for complex hierarchical data structures. Its standards are ideal for an interoperable API, REST-services and Web interface.[^ld]Transformations into other formats and standards are planned.
   - Core metadata, as required by ZENODO and generic data repositories, will be included in the set of metadata.
@@ -25,13 +23,12 @@ Following considerations might be taken into account:
   - Sufficient documentation of data, their origin, units, explanation of terms and cross-linking to standards of definition are recommended and will be assisted by appropriate tools using research feedback from the specific research community.
   - There is a discussion about the advantage of [Structured Data Transformation (SDTL)](https://ddialliance.org/announcement/public-review-structured-data-transformation-language-sdtl) which addresses the issue of data provenance.[^sdtl1] A proposal is under review.
 
-  # Standards and NFDI4D's *Standards-Companion*
+# NFDI4D *Standards-Companion*
 
 
-  The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used.
+The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used. A computational tools will assist researchs in choosing a suitable set of standards and ontologies.
 
-
-Some specific examples of metadata standards, both general and domain specific are:
+Some examples of popular metadata standards, both general and domain specific:
 
 - Dublin Core - domain agnostic, basic and widely used metadata standard
 - DDI (Data Documentation Initiative) - common standard for social, behavioral and economic sciences, including survey data
@@ -67,7 +64,7 @@ In order to offer the development as well as the use of the rich standards to re
 
 ## Provenience
 
-Data Provenience will become part of the paratext of research data. It will be gathered by compiling a dependency graph between research data objects as described in either narrative publications or the analysis of computational notebooks. Each research data object will carry a unique identifyer and reference in research publication establish the dependencies between them. NFDI4SD registry will build up a large dependency graph for research data that will be the basis of supporting the cataloging and reuse of research data.
+Data provenience will become part of the paratext of research data. It will be gathered by compiling a dependency graph between research data objects as described in either narrative publications or the analysis of computational notebooks. Each research data object will carry a unique identifyer and reference in research publication establish the dependencies between them. NFDI4SD registry will build up a large dependency graph for research data that will be the basis of supporting the cataloging and reuse of research data.
 
 [^cd]: [@]
 

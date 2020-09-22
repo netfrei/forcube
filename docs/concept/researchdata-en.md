@@ -1,4 +1,4 @@
-![sd](assets/NFDI4SD_research-data.jpg)
+![sd](assets/NFDI4SD_research-data.png)
 
 ## Epistemology of research data
 

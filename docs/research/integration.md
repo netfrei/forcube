@@ -1,4 +1,7 @@
 
+![](assets/NFDI4SD_workflow.png)
+
+
 NFDI4SD zielt darauf ab, von der großen Nutzergruppe der Forscher der Kleinen Fächer wie auch andere  Interessierte auf ihre Bedürfnisse an Leistungen der Forschungsdateninfrastruktur hingewiesen zu werden. Mit Beginn der Arbeiten wird das NFDI4SD
 
 ## Forscher laufend informieren
