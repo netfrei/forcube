@@ -324,55 +324,12 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Paratext
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
     
     <a href="./" title="Paratext" class="md-nav__link md-nav__link--active">
       Paratext
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#metadata" class="md-nav__link">
-    Metadata
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ontologien-cidoc-referenzdaten" class="md-nav__link">
-    Ontologien / CIDOC / Referenzdaten
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#provenience" class="md-nav__link">
-    Provenience
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -810,37 +767,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#metadata" class="md-nav__link">
-    Metadata
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ontologien-cidoc-referenzdaten" class="md-nav__link">
-    Ontologien / CIDOC / Referenzdaten
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#provenience" class="md-nav__link">
-    Provenience
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -856,18 +784,16 @@
                   
                 
                 
-                  <h1>Paratext</h1>
-                
                 <p><img alt="" src="../assets/NFDI4SD_paratext.png" /></p>
 <h2 id="metadata">Metadata</h2>
 <p>Besides the content data, the paratext of research data contains different types of additional metadata. Citing the recommended metadata of the RDA,<sup id="fnref:rda"><a class="footnote-ref" href="#fn:rda">6</a></sup> and OpenAIRE:<sup id="fnref:oair1"><a class="footnote-ref" href="#fn:oair1">5</a></sup></p>
 <blockquote>
 <p>Metadata is data providing information about data that makes findable, trackable and (re)usable. It can include information such as contact information, geographic locations, details about units of measure, abbreviations or codes used in the dataset, instrument and protocol information, survey tool details, provenance and version information and much more.</p>
 </blockquote>
-<p>The recommended set of paratext data will be discussed at the beginning of the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of <a href="http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf">Datacite</a>. We share the experience that in the important data aggregation such as the definition of metadata, standardised ontologies only play a subordinate role so far. A standardisation of terminology and meaning will still be a tightly controlled part of the data preparation process.</p>
+<p>The recommended set of paratext data will be regularly discussed by the NFDI4SD in workshops and expert consultations. Metadata will satisfy the required core (e.g. Dublin core,  Datacite and OpenAIRE). We, therefore, apply the proposal of <a href="http://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf">Datacite</a>. We share the experience our data aggregation that oversize sets of metadata and standardised ontologies only play a subordinate role for the disciplines. A standardisation of terminology and meaning will still be a closely controlled part of the data preparation process.</p>
 <h2 id="ontologien-cidoc-referenzdaten">Ontologien / CIDOC / Referenzdaten</h2>
-<p>NFDI4D wird ein reichhaltiges Portfolio von machinell verarbeiteten Ontologien zur Verfügung stellen (vergleichbar mit <a href="https://arches.readthedocs.io/en/latest/ontologies-in-arches/">Achres</a>), z.B. CRM (Conceptual Reference Model (<a href="http://www.cidoc-crm.org/">CIDOC</a>)). Das von NFDI4D bevorzugte bottom-up Modell der semantischen Frameworks und ihrer inferentiellen Verarbeitung sieht immer ein Prüfung ihrer Anwendungsbereiche durch die Projekt selbst vor. Die darauf aufbauenden machine learning algorithmen müssen immer ihre Qualitätsmetriken am annotierten Referenzdatenbeständen ausweisen. Diese Referenzdaten sind selbst im Idealfall publizierte, manuell von den Forschern ausgewählte und geprüfte Forschungsdaten.</p>
-<p>Following considerations might be taken into account:</p>
+<p>NFDI4D will optionally provide a rich portfolio of machine processed ontologies (comparable to <a href="https://arches.readthedocs.io/en/latest/ontologies-in-arches/">Achres</a>), e.g. CRM (Conceptual Reference Model (<a href="http://www.cidoc-crm.org/">CIDOC</a>). The bottom-up model of semantic frameworks and their inferential processing preferred by NFDI4D always provides for a review of their application areas by the project itself. The machine learning algorithms based on this model must always show their quality metrics against the annotated reference data set. These reference data are themselves ideally published research data, manually selected and checked by the researchers.</p>
+<p>Following considerations will be taken into account:</p>
 <ul>
 <li>Paratext data will best be coded as <a href="https://json-ld.org/">JSON-LD</a> format, which as a lightweight Linked Data format allows a standardized API for complex hierarchical data structures. Its standards are ideal for an interoperable API, REST-services and Web interface.<sup id="fnref:ld"><a class="footnote-ref" href="#fn:ld">3</a></sup>Transformations into other formats and standards are planned.</li>
 <li>Core metadata, as required by ZENODO and generic data repositories, will be included in the set of metadata.</li>
@@ -878,9 +804,9 @@
 <li>Sufficient documentation of data, their origin, units, explanation of terms and cross-linking to standards of definition are recommended and will be assisted by appropriate tools using research feedback from the specific research community.</li>
 <li>There is a discussion about the advantage of <a href="https://ddialliance.org/announcement/public-review-structured-data-transformation-language-sdtl">Structured Data Transformation (SDTL)</a> which addresses the issue of data provenance.<sup id="fnref:sdtl1"><a class="footnote-ref" href="#fn:sdtl1">4</a></sup> A proposal is under review.</li>
 </ul>
-<p># Standards and NFDI4D's <em>Standards-Companion</em></p>
-<p>The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used.</p>
-<p>Some specific examples of metadata standards, both general and domain specific are:</p>
+<h1 id="nfdi4d-standards-companion">NFDI4D <em>Standards-Companion</em></h1>
+<p>The proven and widely used services such as Zenodo, reference data, programming languages and ontologies already presuppose a rich set of standards and norms for the data used. A computational tools will assist researchs in choosing a suitable set of standards and ontologies.</p>
+<p>Some examples of popular metadata standards, both general and domain specific:</p>
 <ul>
 <li>Dublin Core - domain agnostic, basic and widely used metadata standard</li>
 <li>DDI (Data Documentation Initiative) - common standard for social, behavioral and economic sciences, including survey data</li>
@@ -911,7 +837,7 @@ If you need more information, check the following resources:</li>
 <li>Labeled data for machine learning</li>
 </ul>
 <h2 id="provenience">Provenience</h2>
-<p>Data Provenience will become part of the paratext of research data. It will be gathered by compiling a dependency graph between research data objects as described in either narrative publications or the analysis of computational notebooks. Each research data object will carry a unique identifyer and reference in research publication establish the dependencies between them. NFDI4SD registry will build up a large dependency graph for research data that will be the basis of supporting the cataloging and reuse of research data.</p>
+<p>Data provenience will become part of the paratext of research data. It will be gathered by compiling a dependency graph between research data objects as described in either narrative publications or the analysis of computational notebooks. Each research data object will carry a unique identifyer and reference in research publication establish the dependencies between them. NFDI4SD registry will build up a large dependency graph for research data that will be the basis of supporting the cataloging and reuse of research data.</p>
 <div class="footnote">
 <hr />
 <ol>
