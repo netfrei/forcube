@@ -1,0 +1,87 @@
+[data-md-color-scheme="netfrei"] {
+  --md-primary-fg-color:       #04113b;
+  
+}
+.no-js .md-search{
+  display: block;
+}
+#wrap-header-nf{    
+  /* background-position: 100% -100px; */
+  position: fixed;
+  width: 100%; 
+  z-index: 1;
+  /* background-image: url(schraege.jpg);
+  background-repeat: no-repeat; */
+}
+#slanting-edge-nf{
+      position: relative;
+      height: 153px;
+      width: 104%;
+      top: -40px;
+      left: -10px;
+      padding-top: 40px;
+      padding-left: 0;
+      color: #e8e100 ;
+      background-image: radial-gradient(at top,#04113b , #04113b );
+      -webkit-transform: rotate(-2.4deg);
+      transform: rotate(-2.4deg);
+   
+}
+#slanting-edge-content-nf{
+  -webkit-transform: rotate( 2.4deg);
+      transform: rotate( 2.4deg);
+}
+.md-header{
+  background-color: transparent;
+  position: relative;
+ 
+}
+.md-header-nav__title {
+  flex-grow: 1;
+  padding: 1.2em 1rem 0 0.1rem;
+  font-size: .9rem;
+  line-height: 0.4rem;
+   
+  margin-left: -16px;
+}
+.md-tabs__list{
+  margin-left: -1.55em;
+}
+.md-tabs{
+ background-color: transparent;
+ 
+
+}
+.md-container{
+  margin-top: 150px;
+}
+.md-container-nf{
+  padding-top: 7px;
+}
+.md-header-nav__button {
+  padding: 1.4rem .4rem 0.4rem;
+}
+.md-tabs__link {
+  font-weight: 400;
+}
+.md-nav--primary .md-nav__item--active>.md-nav__link:focus, .md-nav--primary .md-nav__item--active>.md-nav__link:hover ,
+.md-nav__link:focus, .md-nav__link:hover ,
+.md-tabs__link:hover{
+  color: #e8e100 ;
+}
+.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {
+  
+  width: 10.4rem;
+  margin-left: -4px;
+  height: 2.4rem;
+}
+
+.md-nav--primary .md-nav__title[for=__drawer] .md-nav__button {
+  padding-top: 0.5em;
+}
+@media (max-width:1219px){
+  .md-header-nav__title {
+    padding-left:  1rem;
+    }
+
+}

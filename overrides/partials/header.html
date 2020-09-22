@@ -1,0 +1,75 @@
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="{{ lang.t('header.title') }}">
+    <!-- <a href="{{ config.site_url | default(nav.homepage.url, true) | url }}" title="{{ config.site_name }}" class="md-header-nav__button md-logo" aria-label="{{ config.site_name }}">
+      {% include "partials/logo.html" %}
+    </a> -->
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      {% include ".icons/material/menu" ~ ".svg" %}
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      {% if config.site_name == page.title %}
+        <div class="md-header-nav__ellipsis md-ellipsis">
+          <svg xmlns="http://www.w3.org/2000/svg" width="300"   viewBox="0 0 500 82">
+            <defs>
+              <style>
+                .cls-1 {
+                  font-size: 48px;
+                  fill: #e8e100;
+                  font-family: Roboto;
+                  font-weight: 700;
+                }
+          
+                .cls-2 {
+                  font-weight: 300;
+                }
+              </style>
+            </defs>
+            <text id="NFDI_Small_Disciplines" data-name="NFDI Small Disciplines" class="cls-1" x="11.609" y="54.602">NFDI<tspan class="cls-2"> Small Disciplines</tspan></text>
+          </svg>
+          
+        </div>
+      {% else %}
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            <svg xmlns="http://www.w3.org/2000/svg" width="300"   viewBox="0 0 500 82">
+              <defs>
+                <style>
+                  .cls-1 {
+                    font-size: 48px;
+                    fill: #e8e100;
+                    font-family: Roboto;
+                    font-weight: 700;
+                  }
+            
+                  .cls-2 {
+                    font-weight: 300;
+                  }
+                </style>
+              </defs>
+              <text id="NFDI_Small_Disciplines" data-name="NFDI Small Disciplines" class="cls-1" x="11.609" y="54.602">NFDI<tspan class="cls-2"> Small Disciplines</tspan></text>
+            </svg>
+             
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            {% if page and page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </span>
+        </div>
+      {% endif %}
+    </div>
+    {% if "search" in config["plugins"] %}
+      <label class="md-header-nav__button md-icon" for="__search">
+        {% include ".icons/material/magnify.svg" %}
+      </label>
+      {% include "partials/search.html" %}
+    {% endif %}
+    {% if config.repo_url %}
+      <div class="md-header-nav__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </nav>
+</header>

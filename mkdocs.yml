@@ -1,4 +1,4 @@
-site_name: NFDI4SD
+site_name: NFDI Small Disiplines
 nav:
   - Research Data:
       - NFDI4SD: index.md
@@ -34,8 +34,12 @@ nav:
       impressum: impressum.md
 theme:
   name: material
-  font: Roboto
+  custom_dir: overrides  
+  font:
+    text: Roboto
   language: en
+  palette:
+    scheme: netfrei  
   features:
     tabs: True
   custom_checkbox: True
